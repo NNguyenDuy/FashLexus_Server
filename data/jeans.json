@@ -1,0 +1,965 @@
+{
+  "category": {
+    "name": "Jeans",
+    "path": "jeans",
+    "title": "Men's Jeans",
+    "description": "ICYDK, you can’t go wrong with a good pair of jeans. Enter: our edit of men’s jeans, a.k.a your new favorite denim destination. For the staple of all staples, scroll men’s blue jeans from ASOS DESIGN – we’re talking a wash to pair with whatever upper half you have in mind. If you’re after men’s black jeans or men’s skinny jeans, browse the selection from Jack & Jones (cos a low-key down-low option is a closet essential). We’re assuming no introduction is needed for OG Levi’s, but it’s not just classic fits on offer – expect men’s ripped jeans that’ll help you turn up the flex factor. Here’s to making every day a denim day."
+  },
+  "products": [
+    {
+      "images": [
+        "https://images.asos-media.com/products/asos-design-stretch-flare-jeans-in-black/204689257-1-black",
+        "https://images.asos-media.com/products/asos-design-stretch-flare-jeans-in-black/204689257-2",
+        "https://images.asos-media.com/products/asos-design-stretch-flare-jeans-in-black/204689257-3",
+        "https://images.asos-media.com/products/asos-design-stretch-flare-jeans-in-black/204689257-4",
+        "https://images.asos-media.com/products/asos-design-stretch-flare-jeans-in-black/204689257-4?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-stretch-flare-jeans-in-black/204689257-1-black?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-stretch-flare-jeans-in-black/204689257-2?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-stretch-flare-jeans-in-black/204689257-3?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-stretch-flare-jeans-in-black/204689257-4?$n_640w$&"
+      ],
+      "name": "ASOS DESIGN stretch flare jeans in black",
+      "price": "$32.99",
+      "oldPrice": "$32.99",
+      "description": {
+        "color": ["Black"],
+        "size": [
+          "Please select",
+          "W26 L30",
+          "W28 L30",
+          "W28 L32",
+          "W29 L30 - Out of stock",
+          "W29 L32 - Out of stock",
+          "W30 L30",
+          "W30 L32",
+          "W30 L34 - Out of stock",
+          "W31 L30 - Out of stock",
+          "W31 L32 - Out of stock",
+          "W31 L34 - Out of stock",
+          "W32 L30",
+          "W32 L32",
+          "W32 L34 - Out of stock",
+          "W33 L30 - Out of stock",
+          "W33 L32 - Out of stock",
+          "W33 L34 - Out of stock",
+          "W34 L30",
+          "W34 L32",
+          "W34 L34",
+          "W36 L30 - Out of stock",
+          "W36 L32",
+          "W36 L34",
+          "W38 L30 - Out of stock",
+          "W38 L32",
+          "W38 L34",
+          "W40 L30",
+          "W40 L32 - Out of stock",
+          "W40 L34 - Out of stock",
+          "W42 L30",
+          "W42 L32",
+          "W42 L34",
+          "W44 L30 - Out of stock",
+          "W44 L32 - Out of stock",
+          "W44 L34 - Out of stock",
+          "W48 L30 - Out of stock"
+        ],
+        "details": [
+          "Everyday is a denim day",
+          "Flared skinny fit",
+          "High rise",
+          "Belt loops",
+          "Five pockets"
+        ]
+      },
+      "reviews": [
+        [
+          { "stars": 5, "count": 24 },
+          { "stars": 4, "count": 3 },
+          { "stars": 3, "count": 0 },
+          { "stars": 2, "count": 0 },
+          { "stars": 1, "count": 2 }
+        ]
+      ],
+      "comments": [
+        {
+          "date": "2 days ago",
+          "title": "NICE RETRO DENIMS",
+          "content": "I was struggling to find these anywhere and I hadn’t ordered from asos before. Gotta say i was impressed, the quality is very good & they arrived very quickly and where affordable. They are just a touch a bit too flary but they were cool for the disco festival i went to.\nRead More",
+          "starRating": 4
+        },
+        {
+          "date": "15 days ago",
+          "title": "AWESOME STYLE AND FIT!",
+          "content": "Great quality, style and fit! Received plenty of compliments!",
+          "starRating": 5
+        },
+        {
+          "date": "15 days ago",
+          "title": "THAT'S 70'S SHOW",
+          "content": "Groovy pants that comes with alot of compliments. I love them and hoping to make another purchase.",
+          "starRating": 5
+        },
+        {
+          "date": "1 month ago",
+          "title": "FIT LIKE A GLOVE",
+          "content": "By far the best jeans that have fit me well. Got so many compliments wearing them to the rodeo.",
+          "starRating": 5
+        },
+        {
+          "date": "1 month ago",
+          "title": "GO UP IN SIZE",
+          "content": "Pants cheap, zipper broke and the pants definitely were made for the buttocks of an 80year old white woman",
+          "starRating": 1
+        },
+        {
+          "date": "1 month ago",
+          "title": "PERFECTION",
+          "content": "I love these jeans. The fit is absolutely perfect. Love the flare. It’s the perfect Jean. Please make these jeans in several shades /washes of blue.",
+          "starRating": 5
+        },
+        {
+          "date": "1 month ago",
+          "title": "GREAT 👍",
+          "content": "Very happy with the jeans. Very stylish love the fit.",
+          "starRating": 5
+        },
+        {
+          "date": "2 months ago",
+          "title": "GREAT",
+          "content": "I find I difficult to find jeans that fit as I have a smaller waist and bigger legs. These fit perfect. Also love a flared trouser or jean!",
+          "starRating": 5
+        },
+        {
+          "date": "2 months ago",
+          "title": "PERFECT JEANS",
+          "content": "Excellent fit, very comfortable and stylish. Thank you!",
+          "starRating": 5
+        },
+        {
+          "date": "2 months ago",
+          "title": "5 STARS. PERFECT FIT.",
+          "content": "Perfect fit! Had so many compliments when I wore these jeans.",
+          "starRating": 5
+        },
+        {
+          "date": "2 months ago",
+          "title": "SMOOTH",
+          "content": "Good fit and quality, feel pretty groovy rocking these.",
+          "starRating": 5
+        },
+        {
+          "date": "2 months ago",
+          "title": "AWESOME",
+          "content": "I feel like Lenny kravitz when I wear these jeans dope pair of jeans",
+          "starRating": 5
+        },
+        {
+          "date": "3 months ago",
+          "title": "LOVE IT🤩🤩",
+          "content": "This pants is really a vibe. Fits great and got that flared look I was looking for.",
+          "starRating": 5
+        },
+        {
+          "date": "3 months ago",
+          "title": "VERY STYLISH",
+          "content": "These pants are well made and really soft. I bought a second pair immediately. My only issue was that they were described as high rise in the description and they are definitely a mid rise. Other than that…Perfection.\nRead More",
+          "starRating": 4
+        },
+        {
+          "date": "3 months ago",
+          "title": "GREAT JEANS",
+          "content": "I'm into flares at the moment, fed up with the skinny look. These were perfect and ASOS is one of the few places where you can get different cuts of jeans- flares included.\nRead More",
+          "starRating": 5
+        },
+        {
+          "date": "4 months ago",
+          "title": "ORDERING AGAIN",
+          "content": "Pants fit amazing. Shipping was great. Quality was definitely worth it.",
+          "starRating": 5
+        },
+        {
+          "date": "4 months ago",
+          "title": "FLARED JEANS",
+          "content": "Cheap quality material and sizes are too small made. Will never be able to wear them",
+          "starRating": 1
+        },
+        {
+          "date": "4 months ago",
+          "title": "NICE JEANS",
+          "content": "These have a little more room in the hips than other flare jeans I have recently purchased from ASOS, but the denim is a little on the thin side.",
+          "starRating": 4
+        },
+        {
+          "date": "6 months ago",
+          "title": "AMAZING FIT!",
+          "content": "The perfect stretch, absolutely worth it! Honestly best pair jeans I’ve purchased with asos 😁",
+          "starRating": 5
+        },
+        {
+          "date": "6 months ago",
+          "title": "GREAT",
+          "content": "Never had flares before, thought I'd give it a try, absolutely love them 🤟🏻",
+          "starRating": 5
+        },
+        {
+          "date": "6 months ago",
+          "title": "PERFECT PANTS!",
+          "content": "These pants fit perfectly! Right amount of stretch, great flared leg, perfect pants! Look amazing with boots! Highly recommend!",
+          "starRating": 5
+        },
+        {
+          "date": "7 months ago",
+          "title": "GREAT LOOK!",
+          "content": "Great value and quality. Love the stretch and modern shape.",
+          "starRating": 5
+        },
+        {
+          "date": "7 months ago",
+          "title": "DOPE RETRO/MODERN PANTS",
+          "content": "Great quality, fit. Pants are both retro and fresh",
+          "starRating": 5
+        },
+        {
+          "date": "7 months ago",
+          "title": "GREAT FIT, TRUE TO SIZE",
+          "content": "They fit amazing and the stretch allows for movement",
+          "starRating": 5
+        },
+        {
+          "date": "7 months ago",
+          "title": "GREAT FIT!",
+          "content": "I love these jeans. They look great but since they stretch I should’ve gone down a size.",
+          "starRating": 5
+        },
+        {
+          "date": "8 months ago",
+          "title": "GREAT PAIR OF FLARES 👌",
+          "content": "Quality pair of Jeans, nice flares, impressed these aremade in my size😊",
+          "starRating": 5
+        },
+        {
+          "date": "8 months ago",
+          "title": "GREAT FIT",
+          "content": "Grandson loves these pants. The fit is Great! I will definitely order more.",
+          "starRating": 5
+        },
+        {
+          "date": "8 months ago",
+          "title": "FUN FLARED PANTS",
+          "content": "Super fun and great looking flare pants. I went up a size since they are slim and they fit well.",
+          "starRating": 5
+        },
+        {
+          "date": "8 months ago",
+          "title": "GREAT JEANS! WOULD RECOMMEND!",
+          "content": "These jeans are phenomenal! Unlike some flare jeans, they have stretch and feel soo comfortable. They go perfect with a nice boot. Definitely grabbing another pair\nRead More",
+          "starRating": 5
+        }
+      ]
+    },
+    {
+      "images": [
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204747172-1-black",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204747172-2",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204747172-3",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204747172-4",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204747172-5",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204747172-5?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204747172-1-black?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204747172-2?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204747172-3?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204747172-4?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204747172-5?$n_640w$&"
+      ],
+      "name": "ASOS DESIGN spray on jeans with powerstretch in black",
+      "price": "$29.99",
+      "oldPrice": "$29.99",
+      "description": {
+        "color": ["black"],
+        "size": [
+          "Please select",
+          "W26 L30 - Out of stock",
+          "W28 L30 - Out of stock",
+          "W28 L32 - Out of stock",
+          "W29 L30 - Out of stock",
+          "W29 L32 - Out of stock",
+          "W30 L30 - Out of stock",
+          "W30 L32 - Out of stock",
+          "W30 L34 - Out of stock",
+          "W31 L30 - Out of stock",
+          "W31 L32 - Out of stock",
+          "W31 L34",
+          "W32 L30 - Out of stock",
+          "W32 L32",
+          "W32 L34 - Out of stock",
+          "W33 L30 - Out of stock",
+          "W33 L32",
+          "W33 L34",
+          "W34 L30",
+          "W34 L32",
+          "W34 L34",
+          "W36 L30",
+          "W36 L32",
+          "W36 L34 - Out of stock",
+          "W38 L30",
+          "W38 L32",
+          "W38 L34",
+          "W38 L36 - Out of stock",
+          "W40 L30",
+          "W40 L32",
+          "W40 L34",
+          "W42 L30",
+          "W42 L32",
+          "W42 L34",
+          "W44 L30",
+          "W44 L32 - Out of stock",
+          "W44 L34"
+        ],
+        "details": [
+          "Waist-down dressing",
+          "Super-skinny fit",
+          "Regular rise",
+          "Belt loops",
+          "Functional pockets"
+        ]
+      },
+      "reviews": [
+        [
+          { "stars": 5, "count": 15 },
+          { "stars": 4, "count": 1 },
+          { "stars": 3, "count": 1 },
+          { "stars": 2, "count": 1 },
+          { "stars": 1, "count": 3 }
+        ]
+      ],
+      "comments": [
+        {
+          "date": "3 days ago",
+          "title": "GREAT FIT !!",
+          "content": "These jeans are an exact fit with comfortable amount of stretch to them, at a reasonable price.",
+          "starRating": 5
+        },
+        {
+          "date": "1 month ago",
+          "title": "CHEAP NOT THE BEST",
+          "content": "Fabric feels very cheap, sit very low / short at the back and wide on the ankle not well fitting",
+          "starRating": 2
+        },
+        {
+          "date": "1 month ago",
+          "title": "GREAT FIT",
+          "content": "Jeans are true to size and have a good fit. I’d recommend getting them to anyone",
+          "starRating": 5
+        },
+        {
+          "date": "1 month ago",
+          "title": "GOOD JEAN",
+          "content": "Fits perfect oh ya I like em a lot so nice they’ll do just nicely",
+          "starRating": 5
+        },
+        {
+          "date": "4 months ago",
+          "title": "COMFORTABLE FITTING JEANS WOULD NOT HAVE IT ANY OTHER FIT? THEY HAVE TO BE MY FAVORITE PAIR YET. I OWN ABOUT 12 PAIRS TO DATE. KEEP UP THE GREAT WORK AND FIT. HOWEVER, I WISH THEY WOULD COME IN STYLES WITH A PATTERN ON THEM. I THINK IT WOULD BE GREAT!",
+          "content": "I absolutely love the fit of these jeans. Please keep up the great work.",
+          "starRating": 5
+        },
+        {
+          "date": "4 months ago",
+          "title": "GOOD FIT",
+          "content": "Good fit. Awful material, itchy and rough. Won’t be buying again",
+          "starRating": 3
+        },
+        {
+          "date": "5 months ago",
+          "title": "FADED AFTER 2 WASHES",
+          "content": "Only washed a couple of times and they faded not good",
+          "starRating": 1
+        },
+        {
+          "date": "5 months ago",
+          "title": "GOOD STRETCH AND QUALITY",
+          "content": "An actual affordable decent pair of jeans that isn't expensive",
+          "starRating": 5
+        },
+        {
+          "date": "6 months ago",
+          "title": "BARGAIN",
+          "content": "Absolute bargain I tells thee I’d recommend these if wanting this style jeans",
+          "starRating": 5
+        },
+        {
+          "date": "6 months ago",
+          "title": "GREAT!!!",
+          "content": "Fit well and looks nice, nice material!!! Perfect size for a 6' man.",
+          "starRating": 5
+        },
+        {
+          "date": "6 months ago",
+          "title": "GREAT FIT AND LOTS OF COTTON",
+          "content": "Hard to find cotton jeans & these have enough cotton content to allow your skin to breathe; they stretch, however they do not stretch out of shape :>)",
+          "starRating": 5
+        },
+        {
+          "date": "7 months ago",
+          "title": "TH BEST",
+          "content": "The only jeans I buy. They are a classic and go with anything, while still being comfortable",
+          "starRating": 5
+        },
+        {
+          "date": "7 months ago",
+          "title": "NICE FIT",
+          "content": "These are super comfortable, stretchy and pleasingly tight and I don't have to struggle to get them on or off off unlike other SKUs on this site for guy super skinny pants. Hopefully they last a little longer than the standard 2-3 months\nRead More",
+          "starRating": 4
+        },
+        {
+          "date": "7 months ago",
+          "title": "WASN'T GREAT",
+          "content": "I put them on and the top ripped not great product",
+          "starRating": 1
+        },
+        {
+          "date": "7 months ago",
+          "title": "GOOD STUFF",
+          "content": "It was very nice stuff and good quality 👌 I like it",
+          "starRating": 5
+        },
+        {
+          "date": "7 months ago",
+          "title": "JEANS",
+          "content": "my son really liked them size good 40 waist 32 length as previous purchases. good for price nice n stretchy.",
+          "starRating": 5
+        },
+        {
+          "date": "8 months ago",
+          "title": "AMAZING PRODUCT",
+          "content": "Great fit, I've been buying these for the last 4 years and the quality is even better than it was 4 years ago - I still have all the other purchases as they age amazing and into a different style\nRead More",
+          "starRating": 5
+        },
+        {
+          "date": "8 months ago",
+          "title": "GORGEOUS",
+          "content": "I’d purchased 2 pair of these because they’ve come highly recommended by someone I’d seen wearing them on Instagram",
+          "starRating": 1
+        },
+        {
+          "date": "9 months ago",
+          "title": "COMFORTABLE.",
+          "content": "Great fit, super comfortable and fast drying. Good pocket size also",
+          "starRating": 5
+        },
+        {
+          "date": "9 months ago",
+          "title": "BRILLIANT JEANS",
+          "content": "My son loved these, super stetchy, so comfortable to wear, perfect.",
+          "starRating": 5
+        },
+        { "date": "9 months ago", "title": "", "content": "", "starRating": 5 }
+      ]
+    },
+    {
+      "images": [
+        "https://images.asos-media.com/products/asos-design-stretch-slim-jeans-in-black/204404429-1-black",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-jeans-in-black/204404429-2",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-jeans-in-black/204404429-3",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-jeans-in-black/204404429-4",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-jeans-in-black/204404429-4?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-jeans-in-black/204404429-1-black?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-jeans-in-black/204404429-2?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-jeans-in-black/204404429-3?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-jeans-in-black/204404429-4?$n_640w$&"
+      ],
+      "name": "ASOS DESIGN stretch slim jeans in black",
+      "price": "$32.99",
+      "oldPrice": "$32.99",
+      "description": {
+        "color": ["Black"],
+        "size": [
+          "Please select",
+          "W26 L30",
+          "W28 L30",
+          "W28 L32",
+          "W29 L30 - Out of stock",
+          "W29 L32",
+          "W30 L30",
+          "W30 L32",
+          "W30 L34 - Out of stock",
+          "W31 L30",
+          "W31 L32",
+          "W31 L34 - Out of stock",
+          "W32 L30",
+          "W32 L32",
+          "W32 L34 - Out of stock",
+          "W33 L30 - Out of stock",
+          "W33 L32",
+          "W33 L34 - Out of stock",
+          "W34 L30 - Out of stock",
+          "W34 L32",
+          "W34 L34 - Out of stock",
+          "W36 L30 - Out of stock",
+          "W36 L32 - Out of stock",
+          "W36 L34 - Out of stock",
+          "W38 L30 - Out of stock",
+          "W38 L32",
+          "W38 L34 - Out of stock",
+          "W40 L30 - Out of stock",
+          "W40 L32 - Out of stock",
+          "W40 L34 - Out of stock",
+          "W42 L30 - Out of stock",
+          "W42 L32 - Out of stock",
+          "W42 L34 - Out of stock",
+          "W44 L30 - Out of stock",
+          "W44 L32 - Out of stock",
+          "W44 L34 - Out of stock"
+        ],
+        "details": [
+          "For all your nice tops",
+          "Slim fit",
+          "Regular rise",
+          "Belt loops",
+          "Five pockets"
+        ]
+      },
+      "reviews": [
+        [
+          { "stars": 5, "count": 17 },
+          { "stars": 4, "count": 0 },
+          { "stars": 3, "count": 1 },
+          { "stars": 2, "count": 0 },
+          { "stars": 1, "count": 2 }
+        ]
+      ],
+      "comments": [
+        {
+          "date": "18 days ago",
+          "title": "GOOD QUALITY",
+          "content": "Bought this a month ago and I’m satisfied with the quality 100%",
+          "starRating": 5
+        },
+        {
+          "date": "2 months ago",
+          "title": "DOES THE JOB",
+          "content": "Good quality stretch material. Colour last through washes",
+          "starRating": 5
+        },
+        {
+          "date": "2 months ago",
+          "title": "RUNS SMALL.",
+          "content": "Runs small, two sizes smaller. My husband always wears W36. This one couldn’t even close with two inches apart. Had to return. Thanks to ASOS, the return was seamless.\nRead More",
+          "starRating": 3
+        },
+        {
+          "date": "3 months ago",
+          "title": "GOOD FIT",
+          "content": "Good value and fit. I also ordered same size and fitting French connection but that was too tight in comparison so has to return.",
+          "starRating": 5
+        },
+        {
+          "date": "4 months ago",
+          "title": "JUST PERFECT",
+          "content": "All good ..............................mmmmmm.....",
+          "starRating": 5
+        },
+        {
+          "date": "4 months ago",
+          "title": "GOOD QUALITY LOOKS GOOD",
+          "content": "It Fits and looks good would absolutely recommend.",
+          "starRating": 5
+        },
+        {
+          "date": "4 months ago",
+          "title": "STRETCH JEANS",
+          "content": "Excellent product and excellent service couldn't ask for more",
+          "starRating": 5
+        },
+        {
+          "date": "4 months ago",
+          "title": "AS GOOD AS THE INDIGO ONES THAT I BOUGHT EARLIER",
+          "content": "These are decent basioc jeans. Being black I'm expecting that they will fade relatively quickly, but they are smart enough for day to day use.",
+          "starRating": 5
+        },
+        {
+          "date": "5 months ago",
+          "title": "BEST FEEL GOOD JEANS EVER",
+          "content": "Amazing fix and mobility. Best jeans I’ve worn in recent months. The color stays and doesn’t fade. Always looks new with every wash.",
+          "starRating": 5
+        },
+        {
+          "date": "6 months ago",
+          "title": "BRILLIANT",
+          "content": "Great fit, look very nice on, & value for the money I would highly recommend this to anyone",
+          "starRating": 5
+        },
+        {
+          "date": "7 months ago",
+          "title": "PERFECT FIT.",
+          "content": "Perfect size, perfect fit, zero complaints. I would definitely purchase these again in another color.",
+          "starRating": 5
+        },
+        {
+          "date": "7 months ago",
+          "title": "GOOD FIT AND QUALITY",
+          "content": "Came the next day early perfect fit and great quality",
+          "starRating": 5
+        },
+        {
+          "date": "7 months ago",
+          "title": "SMELL BAD",
+          "content": "The jeans have a very strong chemical smell. Have washed them several times and the smell is still very strong.",
+          "starRating": 1
+        },
+        {
+          "date": "8 months ago",
+          "title": "LOVELY JEANS",
+          "content": "Love this jeans. Exactly for long legs, I will buy it again",
+          "starRating": 5
+        },
+        {
+          "date": "8 months ago",
+          "title": "LOOK NO FURTHER…",
+          "content": "Thee perfect pair of black pants, EVER!! I usually only wear designer jeans from designer stores, but that’s over with. These pants fit great, last long, feel good and look clean every time! That’s the reason they’re never available and you have to have an alert on for when they’re back in stock. I’ll cop a pair every time!\nRead More",
+          "starRating": 5
+        },
+        {
+          "date": "9 months ago",
+          "title": "JUST THE RIGHT FIT",
+          "content": "I've bought these jeans before and this pair of jeans is the perfect replacement. The fit is just right if you don't want a looser regular fit and the slim fit is too slim. The quality is very good as always without it being too expensive. I don't think I could ask for more.\nRead More",
+          "starRating": 5
+        },
+        {
+          "date": "10 months ago",
+          "title": "CHEMICAL SMELL",
+          "content": "These jeans fit well, but even after several washes they have an extremely strong chemical smell. Like, other people can smell it when you're near them. I ultimately stopped wearing them. Beware.\nRead More",
+          "starRating": 1
+        },
+        {
+          "date": "10 months ago",
+          "title": "COMFORTABLE",
+          "content": "Came exactly like they appear on the site. Great fit.",
+          "starRating": 5
+        },
+        {
+          "date": "10 months ago",
+          "title": "PERFECT",
+          "content": "Really great slim fit long leg Really great slim fit long leg",
+          "starRating": 5
+        },
+        {
+          "date": "11 months ago",
+          "title": "GOOD COMFORTABLE",
+          "content": "Very comfortable, nice material. Delivery on time.",
+          "starRating": 5
+        }
+      ]
+    },
+    {
+      "images": [
+        "https://images.asos-media.com/products/collusion-x001-mid-rise-skinny-jean-in-black/204815091-1-black",
+        "https://images.asos-media.com/products/collusion-x001-mid-rise-skinny-jean-in-black/204815091-2",
+        "https://images.asos-media.com/products/collusion-x001-mid-rise-skinny-jean-in-black/204815091-3",
+        "https://images.asos-media.com/products/collusion-x001-mid-rise-skinny-jean-in-black/204815091-4",
+        "https://images.asos-media.com/products/collusion-x001-mid-rise-skinny-jean-in-black/204815091-5",
+        "https://images.asos-media.com/products/collusion-x001-mid-rise-skinny-jean-in-black/204815091-5?$n_640w$&",
+        "https://images.asos-media.com/products/collusion-x001-mid-rise-skinny-jean-in-black/204815091-1-black?$n_640w$&",
+        "https://images.asos-media.com/products/collusion-x001-mid-rise-skinny-jean-in-black/204815091-2?$n_640w$&",
+        "https://images.asos-media.com/products/collusion-x001-mid-rise-skinny-jean-in-black/204815091-3?$n_640w$&",
+        "https://images.asos-media.com/products/collusion-x001-mid-rise-skinny-jean-in-black/204815091-4?$n_640w$&",
+        "https://images.asos-media.com/products/collusion-x001-mid-rise-skinny-jean-in-black/204815091-5?$n_640w$&"
+      ],
+      "name": "COLLUSION x001 mid rise skinny jean in black",
+      "price": "$29.99",
+      "oldPrice": "$29.99",
+      "description": {
+        "color": ["Black"],
+        "size": [
+          "Please select",
+          "W26 L30",
+          "W26 L32",
+          "W28 L30",
+          "W28 L32",
+          "W30 L30",
+          "W30 L32",
+          "W30 L34",
+          "W30 L36",
+          "W32 L30",
+          "W32 L32",
+          "W32 L34",
+          "W32 L36",
+          "W34 L30",
+          "W34 L32",
+          "W34 L34",
+          "W34 L36",
+          "W36 L30",
+          "W36 L32",
+          "W36 L34",
+          "W36 L36",
+          "W38 L30",
+          "W38 L32",
+          "W38 L34",
+          "W38 L36"
+        ],
+        "details": [
+          "Exclusive to ASOS",
+          "Skinny fit",
+          "Mid rise",
+          "Functional pockets"
+        ]
+      },
+      "reviews": [
+        [
+          { "stars": 5, "count": 1 },
+          { "stars": 4, "count": 1 },
+          { "stars": 3, "count": 1 },
+          { "stars": 2, "count": 0 },
+          { "stars": 1, "count": 1 }
+        ]
+      ],
+      "comments": [
+        {
+          "date": "2 months ago",
+          "title": "GREAT STUFF",
+          "content": "Love everything that I have ordered it fits great looks great and is a great value will be ordering again soon",
+          "starRating": 5
+        },
+        {
+          "date": "4 months ago",
+          "title": "GOOD EVERYDAY SKINNIES",
+          "content": "Good everyday skinny jeans, a little too short to cuff. Very comfortable and look high quality",
+          "starRating": 4
+        },
+        {
+          "date": "4 months ago",
+          "title": "SIZING IS WAY OF",
+          "content": "Size was way to small quality was good enough if anyone going to order would recommend ordering a size or 2 up",
+          "starRating": 1
+        },
+        {
+          "date": "5 months ago",
+          "title": "CAN’T GET RID OF SMELL ON JEANS",
+          "content": "Very black jeans. But pants came with a bad smell.",
+          "starRating": 3
+        }
+      ]
+    },
+    {
+      "images": [
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204817730-1-black",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204817730-2",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204817730-3",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204817730-4",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204817730-5",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204817730-5?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204817730-1-black?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204817730-2?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204817730-3?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204817730-4?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-spray-on-jeans-with-powerstretch-in-black/204817730-5?$n_640w$&"
+      ],
+      "name": "ASOS DESIGN spray on jeans with powerstretch in black",
+      "price": "$32.99",
+      "oldPrice": "$32.99",
+      "description": {
+        "color": ["Black"],
+        "size": [
+          "Please select",
+          "W28 L30 - Out of stock",
+          "W28 L32 - Out of stock",
+          "W29 L30 - Out of stock",
+          "W29 L32 - Out of stock",
+          "W30 L30",
+          "W30 L32",
+          "W30 L34",
+          "W31 L30",
+          "W31 L32",
+          "W31 L34",
+          "W32 L30",
+          "W32 L32",
+          "W32 L34",
+          "W33 L30",
+          "W33 L32",
+          "W33 L34",
+          "W34 L30",
+          "W34 L32",
+          "W34 L34",
+          "W36 L30",
+          "W36 L32 - Out of stock",
+          "W36 L34",
+          "W38 L30",
+          "W38 L32 - Out of stock",
+          "W38 L34",
+          "W40 L30",
+          "W40 L32",
+          "W40 L34",
+          "W42 L30",
+          "W42 L32",
+          "W42 L34",
+          "W44 L30",
+          "W44 L32 - Out of stock",
+          "W44 L34"
+        ],
+        "details": [
+          "Everyday is a denim day",
+          "Super-skinny fit",
+          "Regular rise",
+          "Belt loops",
+          "Five pockets",
+          "Cut-out knees"
+        ]
+      },
+      "reviews": [
+        [
+          { "stars": 5, "count": 3 },
+          { "stars": 4, "count": 0 },
+          { "stars": 3, "count": 0 },
+          { "stars": 2, "count": 0 },
+          { "stars": 1, "count": 0 }
+        ]
+      ],
+      "comments": [
+        {
+          "date": "1 month ago",
+          "title": "AMAZING FIT",
+          "content": "Great fit. Narrow legs. They are perfect. Snug fit.",
+          "starRating": 5
+        },
+        {
+          "date": "2 months ago",
+          "title": "IN LOVE.",
+          "content": "I’m such a massive fan of the spray on, skinny jeans and super skinny jeans with stretch by asos design. They are the only jeans I’ll wear and now that they have the extended sizes! I’m more in love! Great fit. Great style. Great price. ❤️\nRead More",
+          "starRating": 5
+        },
+        {
+          "date": "2 months ago",
+          "title": "LOVELY",
+          "content": "Great material and true to size. I will definitely recommend it",
+          "starRating": 5
+        }
+      ]
+    },
+    {
+      "images": [
+        "https://images.asos-media.com/products/asos-design-power-stretch-jeans-in-dark-wash-blue/204817648-1-midwashblue",
+        "https://images.asos-media.com/products/asos-design-power-stretch-jeans-in-dark-wash-blue/204817648-2",
+        "https://images.asos-media.com/products/asos-design-power-stretch-jeans-in-dark-wash-blue/204817648-3",
+        "https://images.asos-media.com/products/asos-design-power-stretch-jeans-in-dark-wash-blue/204817648-4",
+        "https://images.asos-media.com/products/asos-design-power-stretch-jeans-in-dark-wash-blue/204817648-4?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-power-stretch-jeans-in-dark-wash-blue/204817648-1-midwashblue?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-power-stretch-jeans-in-dark-wash-blue/204817648-2?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-power-stretch-jeans-in-dark-wash-blue/204817648-3?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-power-stretch-jeans-in-dark-wash-blue/204817648-4?$n_640w$&"
+      ],
+      "name": "ASOS DESIGN power stretch jeans in dark wash blue",
+      "price": "$29.99",
+      "oldPrice": "$29.99",
+      "description": {
+        "color": ["Midwash Blue"],
+        "size": [
+          "Please select",
+          "W26 L30",
+          "W28 L30",
+          "W28 L32",
+          "W29 L30",
+          "W29 L32",
+          "W30 L30",
+          "W30 L32",
+          "W30 L34",
+          "W31 L30",
+          "W31 L32",
+          "W31 L34",
+          "W32 L30",
+          "W32 L32",
+          "W32 L34",
+          "W33 L30",
+          "W33 L32",
+          "W33 L34 - Out of stock",
+          "W34 L30",
+          "W34 L32",
+          "W34 L34",
+          "W36 L30",
+          "W36 L32",
+          "W36 L34",
+          "W38 L30",
+          "W38 L32",
+          "W38 L34"
+        ],
+        "details": [
+          "Everyday is a denim day",
+          "Skinny fit",
+          "Regular rise",
+          "Belt loops",
+          "Zip fly",
+          "Five pockets"
+        ]
+      },
+      "reviews": [
+        [
+          { "stars": 5, "count": 5 },
+          { "stars": 4, "count": 4 },
+          { "stars": 3, "count": 0 },
+          { "stars": 2, "count": 0 },
+          { "stars": 1, "count": 1 }
+        ]
+      ],
+      "comments": [
+        {
+          "date": "1 month ago",
+          "title": "PERFECT",
+          "content": "I’ve scoured the earth looking for the proper jeans. I’ve searched high and I’ve searched low. I’ve spent hundreds upon hundreds of dollars in search for the perfect jeans. I’ve looked at thrift shops and sale bins, but all of this was to no avail. My people, that are few in numbers, who enjoy painted on, comfortable stretch, amazing weight jeans…look no further because these are those jeans!! They have become my favorite jeans and I will only buy these jeans from now until the end!\nRead More",
+          "starRating": 5
+        },
+        {
+          "date": "1 month ago",
+          "title": "BEST JEANS",
+          "content": "Definitely my favourite jeans, great quality, perfect fit, look and feel excellent, good choice of colours ( I have 3 pairs now) extremely comfortable with the power stretch and at a very reasonable price you can't go wrong\nRead More",
+          "starRating": 5
+        },
+        {
+          "date": "2 months ago",
+          "title": "FANTASTIC JEANS",
+          "content": "Love these jeans! I gave it a four because they were said to be a skinny jean, but they fit more like what other jeans makers would call super skinny jeans. Not complaining though. I've been looking for jeans that fit like this for some time. I've worn other super skinny jeans, but they are usually only from the knee down. These are snug all the way. Only complaint is that I wish they were tighter in the thigh. Color is great, feel is great. They have a soft, sensuous feel to them. Just love wearing them. Feel like I'm getting a hug. Can't say enough about how much I love these jeans. Hate having to take them off at the end of the day. I do have to give them a tug to get them off over my big feet. One other thing I like about them is there are no recycled materials in them. They are plain looking jeans, no leather patch on the back, no fancy artwork on the rear pockets. They go great with my sand colored combat boots. May want to get a different color. My biggest complaint is that there aren't many of their other jeans in my size. 32/30. I am curious about their spray on jeans. Would they fit tighter than these? What is the leg opening on them?\nRead More",
+          "starRating": 4
+        },
+        {
+          "date": "3 months ago",
+          "title": "LOOKS GREAT",
+          "content": "Perfect fit , with stretch, and nice colour, looks good with white trainers 👍",
+          "starRating": 5
+        },
+        {
+          "date": "5 months ago",
+          "title": "VERY COOL",
+          "content": "Very cool fit. I would purchase another pair soon. Different colors of course",
+          "starRating": 4
+        },
+        {
+          "date": "6 months ago",
+          "title": "GREAT FIT AND LOTS OF COTTON",
+          "content": "Hard to find cotton jeans & these have enough cotton content to allow your skin to breathe; they stretch, however they do not stretch out of shape :>)",
+          "starRating": 5
+        },
+        {
+          "date": "7 months ago",
+          "title": "JEANS 👖",
+          "content": "Good fit and comfortable because of the stretch fabric",
+          "starRating": 4
+        },
+        {
+          "date": "8 months ago",
+          "title": "EXCELLENT SKINNY STRETCH JEAN",
+          "content": "Excellent stretch jean. Even better than my pair of American Eagle.",
+          "starRating": 1
+        },
+        {
+          "date": "8 months ago",
+          "title": "🩵 THEM!",
+          "content": "Feels like butter. The softness factor is extreme! One of the most comfortable pair of jeans I’ve spotted as of late. Great fit and easy to add a quick roll at the bottom to give a cropped look. Perfect.\nRead More",
+          "starRating": 5
+        },
+        {
+          "date": "8 months ago",
+          "title": "TIGHT BUT A LITTLE LOOSE.",
+          "content": "I’ve always ordered jeans from ASOS because I’m a skinny guy. Ordered these and they’re not as tight as I wanted them but, they look pretty decent.",
+          "starRating": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,827 @@
+{
+  "category": {
+    "name": "Shirts",
+    "path": "shirts",
+    "title": "Men's Shirts",
+    "description": "Newsflash: our edit of men’s shirts means business. When it comes to staple men’s white shirts and men’s black shirts, look no further than ASOS DESIGN for options that’ll take you from office to out-of-office. If the agenda is calling for men’s casual shirts, New Look is your go-to destination for men’s check shirts, plus plain and printed styles to match your mood. For a flex-worthy upper half, set your filters to Polo Ralph Lauren – think signature branding and loadsa different fabrics e.g. flannel, pique and poplin. C’mon, do the smart (or casj) thing."
+  },
+  "products": [
+    {
+      "images": [
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-white/202030023-1-white",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-white/202030023-2",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-white/202030023-3",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-white/202030023-4",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-white/202030023-4?$n_640w$&",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-white/202030023-1-white?$n_640w$&",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-white/202030023-2?$n_640w$&",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-white/202030023-3?$n_640w$&",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-white/202030023-4?$n_640w$&"
+      ],
+      "name": "New Look long sleeve poplin shirt in white",
+      "price": "$28.00",
+      "oldPrice": "$28.00",
+      "description": {
+        "color": ["WHITE"],
+        "size": [
+          "Please select",
+          "XS - Chest 32-34",
+          "S - Chest 35-37",
+          "M - Chest 38-40",
+          "L - Chest 41-43",
+          "XL - Chest 44-46",
+          "2XL - Chest 47-49",
+          "3XL - Chest 50-52 - Out of stock"
+        ],
+        "details": [
+          "Effort: made",
+          "Spread collar",
+          "Button placket",
+          "Long sleeves",
+          "Regular fit"
+        ]
+      },
+      "reviews": [
+        [
+          { "stars": 5, "count": 25 },
+          { "stars": 4, "count": 7 },
+          { "stars": 3, "count": 1 },
+          { "stars": 2, "count": 4 },
+          { "stars": 1, "count": 5 }
+        ]
+      ],
+      "comments": [
+        {
+          "date": "4 months ago",
+          "title": "AMAZING FIT",
+          "content": "Amazing fit and great quality. Fast shipping, excellent customer service.",
+          "starRating": 5
+        },
+        {
+          "date": "9 months ago",
+          "title": "GOOD FIT PERFECT FOR WHAT I NEEDED",
+          "content": "Great shirt fits well",
+          "starRating": 5
+        },
+        {
+          "date": "9 months ago",
+          "title": "WHITE SHIRT",
+          "content": "Very nice material fit in properly",
+          "starRating": 4
+        },
+        {
+          "date": "9 months ago",
+          "title": "POOR",
+          "content": "See through, low quality shirt",
+          "starRating": 1
+        },
+        {
+          "date": "10 months ago",
+          "title": "NOT GREAT FIT",
+          "content": "Fine fit on body, neck and arm length but shoulder bicep area far too small",
+          "starRating": 2
+        },
+        {
+          "date": "10 months ago",
+          "title": "NICE SHIRTS",
+          "content": "Good value for money",
+          "starRating": 4
+        },
+        {
+          "date": "11 months ago",
+          "title": "GREAT BUY!",
+          "content": "Amazing quality for the price!",
+          "starRating": 5
+        },
+        {
+          "date": "11 months ago",
+          "title": "SIZING TOO SMALL",
+          "content": "Ordered a size extra large. . .was more like a medium. . far too small, sleeves too short.",
+          "starRating": 1
+        },
+        {
+          "date": "11 months ago",
+          "title": "EXCELLENT",
+          "content": "Great quality,true to size overall would buy again.",
+          "starRating": 5
+        },
+        {
+          "date": "11 months ago",
+          "title": "A WHITE SHIRT",
+          "content": "Nice fit looks smart and serves any purpose",
+          "starRating": 5
+        },
+        {
+          "date": "12 months ago",
+          "title": "EXCELLENT",
+          "content": "Fit nice would buy again",
+          "starRating": 4
+        },
+        {
+          "date": "1 year ago",
+          "title": "SHIRT",
+          "content": "very nice shirt for the price",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "SON HAPPY WITH THE SHIRT ..RIGHT SIZE ..AND LONG LENGTH PERFECT FIT WELL .. FABRIC QUALITY..RIGHT PRICE AVERAGE..",
+          "content": "Shopping found the shirt suit for son size ..",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "NOT THAT GREAT OF SHIRT",
+          "content": "Not a great white shirt material or cut just not great",
+          "starRating": 2
+        },
+        {
+          "date": "1 year ago",
+          "title": "GOOD VALUE",
+          "content": "Nice shape and material",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "GOOD",
+          "content": "Good to use fabric and everything",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "GOOD PURCHASE",
+          "content": "Perfect fit as advertised",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "GREAT",
+          "content": "Great perfect fit would buy again",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "COMFY FIT",
+          "content": "Biught for my daughter as part of her school uniform, lovely fit, soft material, and a nice length",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "SEE THREW SHIRT WITH BAGGY PIRATE ARMS",
+          "content": "The model and video does no justice in showing what I received. And I don’t know how the positive reviews and praise on this item is even valid. This shirt is see threw! And the sleeves are baggy in length. It’s like a pirate shirt. So unless you want ti show off nipples and be Jerry Seinfeld and wear a pirate shirt go for it. To each their own but I would not buy. But a ASOS fitted or H&M regular dress shirt.\nRead More",
+          "starRating": 1
+        },
+        {
+          "date": "1 year ago",
+          "title": "EXCELLENT",
+          "content": "I don’t do much of talking but go and check it out ! It’s so dope",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "TOO SMALL",
+          "content": "The sizing was correct but didn’t know it would run small :/ and I don’t feel like sending it back lol",
+          "starRating": 4
+        },
+        { "date": "1 year ago", "title": "", "content": "", "starRating": 5 },
+        {
+          "date": "1 year ago",
+          "title": "PERFECT TO LOOK SMART OR CASUAL",
+          "content": "Nice and light and comfy, washes well and easy iron, material good quaility too, look smart or casual with shirt, ive bought a few more.",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "SHIRT",
+          "content": "Great fit and quality",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "GREAT QUALITY",
+          "content": "Great value, excellent quality. I bought one of each colour and have been very pleased with the quality. They wash very well!",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "GOOD QUALITY FOR THE PRICE",
+          "content": "Easy too iron, good fit",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "OVERALL GREAT SHIRT",
+          "content": "The only thing that bothered me was the shoulders, this shirt is meant for someone with a wide back",
+          "starRating": 4
+        },
+        {
+          "date": "1 year ago",
+          "title": "REALLY NICE FIT",
+          "content": "Really nice fit. Love this shirt.",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "NICE FIT LOOKS GREAT",
+          "content": "Great fit, son needed for a wedding looks absolutely great looks nice and expensive would buy again xxx",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "BASIC FOR ANY WARDROBE",
+          "content": "Good quality for price. Just so shy it I supposed to - a basic black poplin shirt. A necessary staple for any wardrobe. Comfy to wear, good shape, an easy to iron!\nRead More",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "QUALITY PRODUCT",
+          "content": "good quality shirt, true to size, value for money, would buy again",
+          "starRating": 4
+        },
+        {
+          "date": "1 year ago",
+          "title": "VERY NICE",
+          "content": "Very nice and fit to size. Bought it few months ago",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "NICE SHIRT, PITY ABOUT SLEEVES",
+          "content": "Shirt body fits really well. As of the sleeves way too baggy. Item returned due to me looking like a clown",
+          "starRating": 3
+        },
+        {
+          "date": "1 year ago",
+          "title": "VERY SEETHROUGH",
+          "content": "I thought ordering a New Look item would be a safe bet for a quality, plain white shirt to wear for a wedding… I was wrong. It was very see-through, definitely not reflective of the price and very awkward when at afunction …\nRead More",
+          "starRating": 2
+        },
+        {
+          "date": "1 year ago",
+          "title": "SIZING TERRIBLE",
+          "content": "Used the size guide and could not have been further wrong, put my heigh and weight and even how i liked the fit (tight fit) may aswell ordered a 8 berth tent to wear.\nRead More",
+          "starRating": 1
+        },
+        {
+          "date": "1 year ago",
+          "title": "GREAT FIT",
+          "content": "I bought it for my son's proms and it fits him perfectly.",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "PERFECT FIT",
+          "content": "Quite stocky for my height, shirt fits perfectly and the price I can’t complain about!",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "REVIEWING SHIRT",
+          "content": "Quality is decent and fits the sizen, pretty good purchasse and value for money",
+          "starRating": 4
+        },
+        {
+          "date": "1 year ago",
+          "title": "NOT TRUE TO SIZE",
+          "content": "If you want this product you should consider looking at a size 2 x bigger as this hardly fit my chest which was slightly disappointing.",
+          "starRating": 2
+        },
+        {
+          "date": "2 years ago",
+          "title": "VERY FLATTERING!",
+          "content": "Bought for my partner, would definitely recommend as it really emphasises the shoulders and build!! Very attractive!",
+          "starRating": 5
+        },
+        {
+          "date": "2 years ago",
+          "title": "EXTREMELY POOR QUALITY",
+          "content": "You can call it a single time use shirt because after washing it once, the cuffs and collars got little bumps all over them and the overall condition of the shirt just worsened. It looked great when it first came but extremely disappointed after the first wash.\nRead More",
+          "starRating": 1
+        }
+      ]
+    },
+    {
+      "images": [
+        "https://images.asos-media.com/products/asos-design-stretch-slim-fit-work-shirt-in-white/202680858-1-white",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-fit-work-shirt-in-white/202680858-2",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-fit-work-shirt-in-white/202680858-3",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-fit-work-shirt-in-white/202680858-4",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-fit-work-shirt-in-white/202680858-4?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-fit-work-shirt-in-white/202680858-1-white?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-fit-work-shirt-in-white/202680858-2?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-fit-work-shirt-in-white/202680858-3?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-stretch-slim-fit-work-shirt-in-white/202680858-4?$n_640w$&"
+      ],
+      "name": "ASOS DESIGN stretch slim fit work shirt in white",
+      "price": "$22.99",
+      "oldPrice": "$22.99",
+      "description": {
+        "color": ["White"],
+        "size": [
+          "Please select",
+          "XS - Chest 36",
+          "S - Chest 38",
+          "M - Chest 40",
+          "M Long - Chest 40 Long",
+          "L - Chest 42",
+          "L Long - Chest 42 Long",
+          "XL - Chest 44",
+          "XL Long - Chest 44 Long",
+          "2XL - Chest 46-48",
+          "2XL Long - Chest 46-48 Long",
+          "3XL - Chest 50-52",
+          "3XL Long - Chest 50-52 Long",
+          "4XL - Chest 54-56"
+        ],
+        "details": [
+          "File under: basics",
+          "Spread collar",
+          "Button placket",
+          "Short sleeves",
+          "Slim fit"
+        ]
+      },
+      "reviews": [
+        [
+          { "stars": 5, "count": 4 },
+          { "stars": 4, "count": 1 },
+          { "stars": 3, "count": 1 },
+          { "stars": 2, "count": 1 },
+          { "stars": 1, "count": 1 }
+        ]
+      ],
+      "comments": [
+        {
+          "date": "9 days ago",
+          "title": "GREAT BASIC/GREAT VALUE",
+          "content": "Can't go wrong. Great price and will be worn many times be it holiday/work",
+          "starRating": 5
+        },
+        {
+          "date": "17 days ago",
+          "title": "GOOD FIT - CHEAP MATERIAL",
+          "content": "Bought for my husband and the fit was great but unfortunately the material is really low quality which makes it quite see-through.",
+          "starRating": 2
+        },
+        {
+          "date": "8 months ago",
+          "title": "SIZE UP",
+          "content": "I bought 1 month ago. shirt is nice. i recommend to buy one size up as it is a little snug if you gain any bit of weight",
+          "starRating": 4
+        },
+        {
+          "date": "8 months ago",
+          "title": "PERFECT FIT",
+          "content": "Shirt is tailor made sizing was perfect and the fabric is so light great for summer",
+          "starRating": 5
+        },
+        {
+          "date": "9 months ago",
+          "title": "STYLISH",
+          "content": "Great shirt. The fit is true to size. Great price and fast delivery.",
+          "starRating": 5
+        },
+        {
+          "date": "9 months ago",
+          "title": "WHITE SHIRT",
+          "content": "Great fit, good material and a decent price. Would recommend",
+          "starRating": 5
+        },
+        {
+          "date": "11 months ago",
+          "title": "VERY NICE LOOKING SHIRT, SIZING IS OFF",
+          "content": "Bought this for myself in a large, which fits me 80% of the time, even took my time to get a suggestion. Nope. Too tight. Ended up giving it to my son.",
+          "starRating": 3
+        },
+        {
+          "date": "1 year ago",
+          "title": "WENT TO WRONG ADRESS",
+          "content": "It went to the wrong flat and they won’t give me it back",
+          "starRating": 1
+        }
+      ]
+    },
+    {
+      "images": [
+        "https://images.asos-media.com/products/asos-design-premium-slim-fit-sateen-shirt-in-white/203194259-1-white",
+        "https://images.asos-media.com/products/asos-design-premium-slim-fit-sateen-shirt-in-white/203194259-2",
+        "https://images.asos-media.com/products/asos-design-premium-slim-fit-sateen-shirt-in-white/203194259-3",
+        "https://images.asos-media.com/products/asos-design-premium-slim-fit-sateen-shirt-in-white/203194259-4",
+        "https://images.asos-media.com/products/asos-design-premium-slim-fit-sateen-shirt-in-white/203194259-4?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-premium-slim-fit-sateen-shirt-in-white/203194259-1-white?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-premium-slim-fit-sateen-shirt-in-white/203194259-2?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-premium-slim-fit-sateen-shirt-in-white/203194259-3?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-premium-slim-fit-sateen-shirt-in-white/203194259-4?$n_640w$&"
+      ],
+      "name": "ASOS DESIGN Premium slim fit sateen shirt in white",
+      "price": "$39.99",
+      "oldPrice": "$39.99",
+      "description": {
+        "color": ["White"],
+        "size": [
+          "Please select",
+          "XS - Chest 36",
+          "S - Chest 38",
+          "M - Chest 40",
+          "L - Chest 42",
+          "XL - Chest 44",
+          "XL Long - Chest 44 Long - Out of stock",
+          "2XL - Chest 46-48",
+          "2XL Long - Chest 46-48 Long - Out of stock",
+          "3XL - Chest 50-52",
+          "4XL - Chest 54-56"
+        ],
+        "details": [
+          "Effort: made",
+          "Spread collar",
+          "Button placket",
+          "Long sleeves",
+          "Slim fit"
+        ]
+      },
+      "reviews": [
+        [
+          { "stars": 5, "count": 1 },
+          { "stars": 4, "count": 0 },
+          { "stars": 3, "count": 0 },
+          { "stars": 2, "count": 0 },
+          { "stars": 1, "count": 2 }
+        ]
+      ],
+      "comments": [
+        {
+          "date": "3 months ago",
+          "title": "WOULDN’T ACCEPT A RETURN",
+          "content": "ASOS would not accept my return because I had ‘worn’ the item. I had tried the item on for around 30 seconds. If you are not aloud to try clothes on how are you supposed know if they fit as intended. Won’t be using ASOS again which is a shame as I used them frequently.\nRead More",
+          "starRating": 1
+        },
+        {
+          "date": "6 months ago",
+          "title": "GREAT CUT BUT WORN OUT AFTER ONE MACHING WASH!",
+          "content": "Great cut but worn out after one maching wash! Can Asos customer care contact me for a refund or return?",
+          "starRating": 1
+        },
+        {
+          "date": "1 year ago",
+          "title": "NICE MATERIAL.",
+          "content": "Bough an M size. More like M/L than M. The material is nice.",
+          "starRating": 5
+        }
+      ]
+    },
+    {
+      "images": [
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-black/204266858-1-black",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-black/204266858-2",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-black/204266858-3",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-black/204266858-4",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-black/204266858-4?$n_640w$&",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-black/204266858-1-black?$n_640w$&",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-black/204266858-2?$n_640w$&",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-black/204266858-3?$n_640w$&",
+        "https://images.asos-media.com/products/new-look-long-sleeve-poplin-shirt-in-black/204266858-4?$n_640w$&"
+      ],
+      "name": "New Look long sleeve poplin shirt in black",
+      "price": "$28.00",
+      "oldPrice": "$28.00",
+      "description": {
+        "color": ["Black"],
+        "size": ["Please select", "XS", "S", "M", "L", "XL", "2XL"],
+        "details": [
+          "Add-to-bag material",
+          "Spread collar",
+          "Button placket",
+          "Long sleeves",
+          "Regular fit"
+        ]
+      },
+      "reviews": [
+        [
+          { "stars": 5, "count": 3 },
+          { "stars": 4, "count": 0 },
+          { "stars": 3, "count": 0 },
+          { "stars": 2, "count": 0 },
+          { "stars": 1, "count": 0 }
+        ]
+      ],
+      "comments": [
+        {
+          "date": "1 month ago",
+          "title": "BOUGHT MORE",
+          "content": "Nice material, light & easy to iron, looks smart.",
+          "starRating": 5
+        },
+        {
+          "date": "5 months ago",
+          "title": "SHIRT",
+          "content": "Great Fit, Shirt just as pictured.",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "NICE SHIRT",
+          "content": "Good value. Very smart and nicely made. Collectiin in the store was nice and easy.",
+          "starRating": 5
+        }
+      ]
+    },
+    {
+      "images": [
+        "https://images.asos-media.com/products/asos-design-satin-shirt-with-tie-neck-and-blouson-volume-sleeves/200499643-1-black",
+        "https://images.asos-media.com/products/asos-design-satin-shirt-with-tie-neck-and-blouson-volume-sleeves/200499643-2",
+        "https://images.asos-media.com/products/asos-design-satin-shirt-with-tie-neck-and-blouson-volume-sleeves/200499643-3",
+        "https://images.asos-media.com/products/asos-design-satin-shirt-with-tie-neck-and-blouson-volume-sleeves/200499643-4",
+        "https://images.asos-media.com/products/asos-design-satin-shirt-with-tie-neck-and-blouson-volume-sleeves/200499643-4?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-satin-shirt-with-tie-neck-and-blouson-volume-sleeves/200499643-1-black?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-satin-shirt-with-tie-neck-and-blouson-volume-sleeves/200499643-2?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-satin-shirt-with-tie-neck-and-blouson-volume-sleeves/200499643-3?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-satin-shirt-with-tie-neck-and-blouson-volume-sleeves/200499643-4?$n_640w$&"
+      ],
+      "name": "ASOS DESIGN satin shirt with tie neck and blouson volume sleeves",
+      "price": "$39.99",
+      "oldPrice": "$39.99",
+      "description": {
+        "color": ["Black"],
+        "size": [
+          "Please select",
+          "2XS - Chest 34",
+          "XS - Chest 36",
+          "S - Chest 38",
+          "M - Chest 40",
+          "L - Chest 42",
+          "XL - Chest 44",
+          "2XL - Chest 46-48",
+          "3XL - Chest 50-52",
+          "4XL - Chest 54-56"
+        ],
+        "details": [
+          "Tie neck",
+          "Concealed placket",
+          "Blouson sleeves",
+          "Buttoned cuffs",
+          "Regular fit"
+        ]
+      },
+      "reviews": [
+        [
+          { "stars": 5, "count": 9 },
+          { "stars": 4, "count": 3 },
+          { "stars": 3, "count": 0 },
+          { "stars": 2, "count": 1 },
+          { "stars": 1, "count": 1 }
+        ]
+      ],
+      "comments": [
+        {
+          "date": "2 months ago",
+          "title": "DECENT",
+          "content": "Nice quality, comfortable, but size was a little over",
+          "starRating": 4
+        },
+        {
+          "date": "4 months ago",
+          "title": "TINY AND POOR QUALITY",
+          "content": "Really small sizing and really poor quality fabric",
+          "starRating": 1
+        },
+        {
+          "date": "1 year ago",
+          "title": "GREAT FEATURES",
+          "content": "I bought this for a event & I am very pleased because it fitted perfectly.",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "GREAT",
+          "content": "Great product with good quality. Really good price.",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "LOVE!",
+          "content": "Excellent! I was worried about this shirt because it’s out of my comfort zone, but I’ve received sooo many compliments I just ordered it in the other color. Great quality & look.\nRead More",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "MY GO-TO SHIRT",
+          "content": "I love all of these silky pussybow shirts and this is my go-to, easy to pair with literally any outfit I want, instantly classy, easy to breathe in (perfect for the summer but hopefully it'll remain perfect for winter when paired with some cardies, jackets etc.) and ideally androgynous for exactly the vibe I'm looking for! Hopefully we continue to see more shirts in this vain.\nRead More",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "GREAT TOP!",
+          "content": "This was a fabulous option for an unconventional yet dressy shirt and bowtie to wear to prom. I onlywish the scarf/bow was an inch wider.",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "LOOKED MORE LIKE A PRIEST THAN I WANTED",
+          "content": "I was going for edgy, Johnny Depp, pirate, Dracula vibes, but it came out more minister/priest",
+          "starRating": 2
+        },
+        {
+          "date": "1 year ago",
+          "title": "SIZING CHANGE?",
+          "content": "I'm a super short/slim person and fell in love with asos because their 2xs actually fit me. It still isn't the WORST fit. But its so LONG it goes down to my knees and the sleeves are a good several inches too long. This has been the story for the past three 2xs shirts I've bought. Disappointing but not terrible enough for me to stop buying from them.\nRead More",
+          "starRating": 4
+        },
+        {
+          "date": "2 years ago",
+          "title": "GREAT FIT",
+          "content": "I’ve worn this a few times and I always get tons of compliments",
+          "starRating": 5
+        },
+        {
+          "date": "2 years ago",
+          "title": "BEAUTIFUL!!",
+          "content": "Waited for the restock on this one and it was so worth it. Beautiful shirt with a great fit. Thanks, ASOS.",
+          "starRating": 5
+        },
+        {
+          "date": "2 years ago",
+          "title": "NEW ROMANTIC",
+          "content": "I am a larger male and this really suits my body shape. Teamed with a black suit and Cuban heeled boots, looks amazing!",
+          "starRating": 5
+        },
+        {
+          "date": "2 years ago",
+          "title": "CUTE",
+          "content": "Everything is fine although the tie has only a single stitch holding it to the collar line of the garment. I bought a large (I am normally a small or medium) and this fits snuggly, i.e. runs small.\nRead More",
+          "starRating": 4
+        },
+        {
+          "date": "2 years ago",
+          "title": "GREAT 80'S NEW ROMANTIC STYLE",
+          "content": "Wearing this at Steam Punk events. Quality is great for the price",
+          "starRating": 5
+        }
+      ]
+    },
+    {
+      "images": [
+        "https://images.asos-media.com/products/asos-design-skinny-fit-shirt-in-black/200376056-1-black",
+        "https://images.asos-media.com/products/asos-design-skinny-fit-shirt-in-black/200376056-2",
+        "https://images.asos-media.com/products/asos-design-skinny-fit-shirt-in-black/200376056-3",
+        "https://images.asos-media.com/products/asos-design-skinny-fit-shirt-in-black/200376056-4",
+        "https://images.asos-media.com/products/asos-design-skinny-fit-shirt-in-black/200376056-4?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-skinny-fit-shirt-in-black/200376056-1-black?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-skinny-fit-shirt-in-black/200376056-2?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-skinny-fit-shirt-in-black/200376056-3?$n_640w$&",
+        "https://images.asos-media.com/products/asos-design-skinny-fit-shirt-in-black/200376056-4?$n_640w$&"
+      ],
+      "name": "ASOS DESIGN skinny fit shirt in black",
+      "price": "$29.99",
+      "oldPrice": "$29.99",
+      "description": {
+        "color": ["Black"],
+        "size": [
+          "Please select",
+          "2XS - Chest 34 - Out of stock",
+          "XS - Chest 36",
+          "S - Chest 38",
+          "M - Chest 40",
+          "M Long - Chest 40 Long",
+          "L - Chest 42",
+          "L Long - Chest 42 Long - Out of stock",
+          "XL - Chest 44",
+          "XL Long - Chest 44 Long",
+          "2XL - Chest 46-48",
+          "2XL Long - Chest 46-48 Long",
+          "3XL Long - Chest 50-52 Long"
+        ],
+        "details": [
+          "Plain design",
+          "Spread collar",
+          "Button placket",
+          "Skinny fit"
+        ]
+      },
+      "reviews": [
+        [
+          { "stars": 5, "count": 8 },
+          { "stars": 4, "count": 3 },
+          { "stars": 3, "count": 3 },
+          { "stars": 2, "count": 2 },
+          { "stars": 1, "count": 3 }
+        ]
+      ],
+      "comments": [
+        {
+          "date": "New Today",
+          "title": "GOOD VALUE, WOULD BUY AGAIN.",
+          "content": "I needed a plain black shirt for work. This fit the bill...literally!",
+          "starRating": 4
+        },
+        {
+          "date": "1 month ago",
+          "title": "ASOS DESIGN SKINNY FIT SHIRT IN BLACK",
+          "content": "I initially had the \"S\" size. I outgrew it and decided to get an \"M\" size. Shirt fits well. Good quality!",
+          "starRating": 5
+        },
+        {
+          "date": "2 months ago",
+          "title": "SHIRT",
+          "content": "great quality and fit looks great on really happy with it",
+          "starRating": 5
+        },
+        {
+          "date": "2 months ago",
+          "title": "HE LOVED IT",
+          "content": "I bought this as a gift and he absolutely loved it",
+          "starRating": 4
+        },
+        {
+          "date": "6 months ago",
+          "title": "NOT THE CORRECT SIZE.",
+          "content": "I bought this a month ago for my husbands birthday. When he finally went to try it on it didn’t fit. All of his other shirts are XL and he fits those just fine. Unfortunately it is past the 28 days so I cannot return it. Not happy.\nRead More",
+          "starRating": 3
+        },
+        {
+          "date": "10 months ago",
+          "title": "VERY SMALL.",
+          "content": "I,bought my size L. But the shirt is very small and tight. I was disappointed very much. I don't have nothing to do with it.",
+          "starRating": 3
+        },
+        {
+          "date": "10 months ago",
+          "title": "VARIOUS CLOTHING",
+          "content": "Have bought some suits, shirts and ties for my sons who will be going to 6th form soon, the mens extra small fit them really well, products are good quality for the price and look really smart....I have had to return a few items but this is really simple to do and no label needs to be printed.....excellent experience all round\nRead More",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "GREAT FIT AND STYLE",
+          "content": "Was dissatisfied with loose fit of some other major providers. This shirt has a more flattering fitted cut.",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "GREAT FIT",
+          "content": "Shirt is very sleek and stylish. Just the way I like it.",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "A LITTLE SMALL",
+          "content": "The shoulder and triceps are tight even one size up. Material is nice.",
+          "starRating": 1
+        },
+        {
+          "date": "1 year ago",
+          "title": "OK SHIRT, TERRIBLE DELIVERY - AGAIN.",
+          "content": "Paid for next day delivery, arrived 1 week late - too late as I was travelling by then. This is the second time in a row I’ve been let down by Asos and its delivery partners. Reluctant to by again. No refund, no compensation, no product.\nRead More",
+          "starRating": 1
+        },
+        {
+          "date": "1 year ago",
+          "title": "WAY TOO SMALL",
+          "content": "Deadass they too small ya heard. They nice tho but too small.facts",
+          "starRating": 1
+        },
+        {
+          "date": "1 year ago",
+          "title": "A++",
+          "content": "A++dfsadsafqefdafasdsaf asdsa das dasda sadasd asdas",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "GREAT",
+          "content": "Ive bought this top very nice too small so returned for larger",
+          "starRating": 2
+        },
+        {
+          "date": "1 year ago",
+          "title": "PERFECT FOR MY SON",
+          "content": "My son wore it under his suit for homecoming. It was the perfect fit.",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "LOVELY MATERIAL, TERRIBLE STITCHING QUALITY",
+          "content": "I’m 5’8” with big shoulders & arms and at 42 don’t have the 6 pack I used to. So only get the size you normally get if you’re extremely trim on the waist & abs. I got a L & XL when I’m usually medium. The L was too tight on shoulders & very tight round the waist. The XL fit on the shoulder & waist but it a weird cut, for me there but the shirt was very very long with really long sleeves. So I got it tailored to fit and I was very happy. Until I washed it and all the stitching came out everywhere except where I had it professionally tailored on the body length & sleeves. It’s a right mess now and cost me another £25 for the tailoring. My advice…. Proceed with caution on ASOS own clothes, the cut is weird & the stitching & build quality are rubbish. Friends have told me this too. Now I have a shirt I’ve spent £50 on I cannot wear.\nRead More",
+          "starRating": 2
+        },
+        {
+          "date": "1 year ago",
+          "title": "GREAT SHIRT",
+          "content": "I bought this for my son for his prom. It’s a lovely shirt and great quality. The fit is a bit on the large side. My son is medium in other shirts but we could’ve gone for a small for this shirt. Apart from that, it’s a great shirt.\nRead More",
+          "starRating": 4
+        },
+        {
+          "date": "1 year ago",
+          "title": "EXCELLENT FITTED SHIRT",
+          "content": "Brought this for my son it looks fantastic, very slim fit he is quite slim",
+          "starRating": 5
+        },
+        {
+          "date": "1 year ago",
+          "title": "TIGHT",
+          "content": "I brought it and didn’t expect it to be too tight. Materiel is really good but just waiting for the refund which is taking too long",
+          "starRating": 3
+        }
+      ]
+    }
+  ]
+}
