@@ -16,6 +16,7 @@ export const insertData = () =>
           const category = await db.Category.create({
             Name: index.link.category.name,
             Category_path: formatPath(index.link.category.path),
+            Status: 1,
           })
 
           await Promise.all(
@@ -46,7 +47,7 @@ export const insertData = () =>
                     Rating: comment.starRating,
                     Title: comment.title,
                     Content: comment.content,
-                    createdAt: comment.date,
+                    createdAt: Date.now('YYYY:MM:DD'),
                   })
                 })
               )

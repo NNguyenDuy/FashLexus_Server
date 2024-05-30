@@ -5,62 +5,21 @@ import db from '../models'
 export const getProductsFeatured = () =>
   new Promise(async (resolve, reject) => {
     try {
-      const products = await db.Product.findAll({
-        include: [
-          {
-            model: db.Review,
-            as: 'Reviews',
-            attributes: [
-              [db.sequelize.fn('COUNT', db.sequelize.col('id')), 'reviewCount'],
-            ],
-            group: ['Product_id'],
-            order: [[db.sequelize.literal('reviewCount'), 'DESC']],
-            limit: 10,
-          },
-          {
-            model: db.Category,
-            as: 'Category',
-            attributes: ['Name'],
-            required: true,
-          },
-        ],
-        limit: 10,
-      })
+      const products = await db.sequelize.query(
+        `
+        SELECT p.*, c.Name AS category_name, COUNT(r.id) AS review_count
+        FROM Products p
+        LEFT JOIN Reviews r ON p.id = r.Product_id
+        LEFT JOIN Categories c ON p.Category_id = c.id
+        GROUP BY p.id
+        ORDER BY p.Sold DESC, review_count DESC
+        LIMIT 10;
+      `,
+        {
+          type: db.sequelize.QueryTypes.SELECT,
+        }
+      )
 
-      resolve({
-        error: 0,
-        message: 'Get products success',
-        products,
-      })
-    } catch (error) {
-      reject(error)
-    }
-  })
-
-export const getProductsTrending = () =>
-  new Promise(async (resolve, reject) => {
-    try {
-      const products = await db.Product.findAll({
-        include: [
-          {
-            model: db.Review,
-            as: 'Reviews',
-            attributes: [
-              [db.sequelize.fn('COUNT', db.sequelize.col('id')), 'reviewCount'],
-            ],
-            group: ['Product_id'],
-            order: [[db.sequelize.literal('reviewCount'), 'DESC']],
-            limit: 10,
-          },
-          {
-            model: db.Category,
-            as: 'Category',
-            attributes: ['Name'],
-            required: true,
-          },
-        ],
-        limit: 10,
-      })
       resolve({
         error: 0,
         message: 'Get products success',
@@ -75,33 +34,9 @@ export const getProductsNewArrival = () =>
   new Promise(async (resolve, reject) => {
     try {
       const products = await db.Product.findAll({
-        include: [
-          {
-            model: db.Review,
-            as: 'Reviews',
-            attributes: [
-              [db.sequelize.fn('COUNT', db.sequelize.col('id')), 'reviewCount'],
-            ],
-            group: ['Product_id'],
-            order: [[db.sequelize.literal('reviewCount'), 'DESC']],
-            limit: 10,
-          },
-          {
-            model: db.Category,
-            as: 'Category',
-            attributes: ['Name'],
-            required: true,
-          },
-        ],
-        where: {
-          createdAt: {
-            [Op.lte]: new Date(),
-          },
-        },
         order: [['createdAt', 'DESC']],
         limit: 10,
       })
-
       resolve({
         error: 0,
         message: 'Get products success',
@@ -120,6 +55,34 @@ export const getProduct = (id) =>
         error: 0,
         message: 'Get product success',
         product,
+      })
+    } catch (error) {
+      reject(error)
+    }
+  })
+
+export const getProductsTrending = () =>
+  new Promise(async (resolve, reject) => {
+    try {
+      const products = await db.sequelize.query(
+        `
+        SELECT p.*, c.Name AS category_name, COUNT(r.id) AS review_count
+        FROM Products p
+        LEFT JOIN Reviews r ON p.id = r.Product_id
+        LEFT JOIN Categories c ON p.Category_id = c.id
+        GROUP BY p.id
+        ORDER BY p.Sold DESC, review_count DESC
+        LIMIT 10;
+      `,
+        {
+          type: db.sequelize.QueryTypes.SELECT,
+        }
+      )
+
+      resolve({
+        error: 0,
+        message: 'Get products success',
+        products,
       })
     } catch (error) {
       reject(error)

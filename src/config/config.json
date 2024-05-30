@@ -1,24 +1,27 @@
 {
   "development": {
     "username": "root",
-    "password": null,
-    "database": "fashlexus",
-    "host": "127.0.0.1",
+    "password": "qwKSwKbiheqApedKUdiZOiGgFKGSaSzN",
+    "database": "railway",
+    "host": "viaduct.proxy.rlwy.net",
     "dialect": "mysql",
-    "logging": false
+    "logging": false,
+    "port": 21302
   },
   "test": {
     "username": "root",
-    "password": null,
-    "database": "fashlexus",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "password": "qwKSwKbiheqApedKUdiZOiGgFKGSaSzN",
+    "database": "railway",
+    "host": "viaduct.proxy.rlwy.net",
+    "dialect": "mysql",
+    "port": 21302
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "fashlexus",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "password": "qwKSwKbiheqApedKUdiZOiGgFKGSaSzN",
+    "database": "railway",
+    "host": "viaduct.proxy.rlwy.net",
+    "dialect": "mysql",
+    "port": 21302
   }
 }

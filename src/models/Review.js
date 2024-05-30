@@ -15,6 +15,8 @@ module.exports = (sequelize) => {
       Rating: DataTypes.INTEGER,
       Title: DataTypes.STRING,
       Content: DataTypes.TEXT,
+      createdAt: DataTypes.DATE,
+      updatedAt: DataTypes.DATE,
     },
     {
       sequelize,

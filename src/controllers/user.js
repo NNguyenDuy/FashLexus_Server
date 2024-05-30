@@ -2,7 +2,7 @@ import * as userServices from '../services/user'
 
 export const getUserByIdController = async (req, res) => {
   try {
-    const { id } = req.user.user
+    const { id } = req.user
     const response = await userServices.getUserById(id)
     return res.status(200).json(response)
   } catch (error) {
