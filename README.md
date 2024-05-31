@@ -1,1 +1,1 @@
-Detail Readmd in: https://github.com/NNguyenDuy/FashLexus_Client
+Detail Readmd in: ttps://github.com/NNguyenDuy/FashLexus_Client
