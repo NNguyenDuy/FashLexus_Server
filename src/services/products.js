@@ -1,24 +1,11 @@
-import { where } from 'sequelize'
-import { Op } from 'sequelize'
 import db from '../models'
 
 export const getProductsFeatured = () =>
   new Promise(async (resolve, reject) => {
     try {
-      const products = await db.sequelize.query(
-        `
-        SELECT p.*, c.Name AS category_name, COUNT(r.id) AS review_count
-        FROM Products p
-        LEFT JOIN Reviews r ON p.id = r.Product_id
-        LEFT JOIN Categories c ON p.Category_id = c.id
-        GROUP BY p.id
-        ORDER BY p.Sold DESC, review_count DESC
-        LIMIT 10;
-      `,
-        {
-          type: db.sequelize.QueryTypes.SELECT,
-        }
-      )
+      const products = await db.sequelize.query('CALL GetTopProducts()', {
+        type: db.sequelize.QueryTypes.RAW,
+      })
 
       resolve({
         error: 0,
@@ -64,20 +51,9 @@ export const getProduct = (id) =>
 export const getProductsTrending = () =>
   new Promise(async (resolve, reject) => {
     try {
-      const products = await db.sequelize.query(
-        `
-        SELECT p.*, c.Name AS category_name, COUNT(r.id) AS review_count
-        FROM Products p
-        LEFT JOIN Reviews r ON p.id = r.Product_id
-        LEFT JOIN Categories c ON p.Category_id = c.id
-        GROUP BY p.id
-        ORDER BY p.Sold DESC, review_count DESC
-        LIMIT 10;
-      `,
-        {
-          type: db.sequelize.QueryTypes.SELECT,
-        }
-      )
+      const products = await db.sequelize.query('CALL GetTrendingProducts()', {
+        type: db.sequelize.QueryTypes.RAW,
+      })
 
       resolve({
         error: 0,
