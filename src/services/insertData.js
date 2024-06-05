@@ -1,10 +1,30 @@
 import db from '../models'
 import hoodies from '../../data/hoodies.json'
+import jeans from '../../data/jeans.json'
+import shirts from '../../data/shirts.json'
+import shorts from '../../data/shorts.json'
+import suits from '../../data/suits.json'
+import tshirts from '../../data/tshirts.json'
 import { formatPath, getPrice } from '../ultis/common'
 
 const data = [
+  // {
+  //   link: hoodies,
+  // },
   {
-    link: hoodies,
+    link: jeans,
+  },
+  {
+    link: shirts,
+  },
+  {
+    link: shorts,
+  },
+  {
+    link: suits,
+  },
+  {
+    link: tshirts,
   },
 ]
 
