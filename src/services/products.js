@@ -15,7 +15,7 @@ export const getProductsFeatured = () =>
     } catch (error) {
       reject(error)
     }
-  })
+  })  
 
 export const getProductsNewArrival = () =>
   new Promise(async (resolve, reject) => {
