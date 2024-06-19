@@ -8,9 +8,9 @@ import tshirts from '../../data/tshirts.json'
 import { formatPath, getPrice } from '../ultis/common'
 
 const data = [
-  // {
-  //   link: hoodies,
-  // },
+  {
+    link: hoodies,
+  },
   {
     link: jeans,
   },

@@ -33,3 +33,15 @@ export const getTotalReviewsProduct = async (req, res) => {
     })
   }
 }
+
+export const createReview = async (req, res) => {
+  try {
+    const review = await reviewsService.createReview(req.query)
+    return res.status(200).json(review)
+  } catch (error) {
+    return res.status(500).json({
+      error: -1,
+      message: `Cannot create review from product ${error.message}`,
+    })
+  }
+}

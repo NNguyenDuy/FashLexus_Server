@@ -34,3 +34,19 @@ export const getTotalReviewsProduct = (Product_id) =>
       reject(error)
     }
   })
+
+export const createReview = ({ User_id, Product_id, Rating, Title, Content }) =>
+  new Promise(async (resolve, reject) => {
+    try {
+      const review = await db.Review.create({
+        User_id,
+        Product_id,
+        Rating,
+        Title,
+        Content,
+      })
+      resolve(review)
+    } catch (error) {
+      reject(error)
+    }
+  })

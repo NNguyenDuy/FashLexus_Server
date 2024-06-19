@@ -5,5 +5,6 @@ const router = express.Router()
 
 router.get('/getTotalReviewProduct', reviewsController.getTotalReviewsProduct)
 router.get('/getReviewProduct', reviewsController.getReviews)
+router.post('/createReview', reviewsController.createReview)
 
 export default router
