@@ -11,7 +11,6 @@ const initRoutes = (app) => {
   app.use('/api/system', insertRouter)
   app.use('/api/system', insertRouter)
   app.use('/api/product', productRouter)
-  app.use('/api/product', productRouter)
   app.use('/api/categories', categoriesRouter)
   app.use('/api/reviews', reviewsRouter)
 

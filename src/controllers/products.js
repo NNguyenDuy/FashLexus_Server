@@ -47,3 +47,15 @@ export const getProduct = async (req, res) => {
     })
   }
 }
+
+export const getProductsCategory = async (req, res) => {
+  try {
+    const products = await productsServices.getProductsCategory(req.query)
+    return res.status(200).json(products)
+  } catch (error) {
+    return res.status(500).json({
+      error: -1,
+      message: `Cannot get products category: ${error.message}`,
+    })
+  }
+}
