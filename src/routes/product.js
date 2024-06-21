@@ -7,5 +7,6 @@ router.get('/trending-products', productsController.getProductsTrending)
 router.get('/new-arrival-products', productsController.getProductsNewArrival)
 router.get(`/details/:id`, productsController.getProduct)
 router.get('/category', productsController.getProductsCategory)
+router.get('/categoryTotal', productsController.getTotalProductsCategory)
 
 export default router

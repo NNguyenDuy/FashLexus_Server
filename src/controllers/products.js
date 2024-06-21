@@ -5,10 +5,7 @@ export const getProductsFeatured = async (req, res) => {
     const response = await productsServices.getProductsFeatured()
     return res.status(200).json(response)
   } catch (error) {
-    return res.status(500).json({
-      error: -1,
-      message: `Cannot get products: ${error.message}`,
-    })
+    return res.status(500).json(error)
   }
 }
 export const getProductsTrending = async (req, res) => {
@@ -16,10 +13,7 @@ export const getProductsTrending = async (req, res) => {
     const response = await productsServices.getProductsTrending()
     return res.status(200).json(response)
   } catch (error) {
-    return res.status(500).json({
-      error: -1,
-      message: `Cannot get products: ${error.message}`,
-    })
+    return res.status(500).json(error)
   }
 }
 
@@ -28,10 +22,7 @@ export const getProductsNewArrival = async (req, res) => {
     const response = await productsServices.getProductsNewArrival()
     return res.status(200).json(response)
   } catch (error) {
-    return res.status(500).json({
-      error: -1,
-      message: `Cannot get products: ${error.message}`,
-    })
+    return res.status(500).json(error)
   }
 }
 
@@ -41,10 +32,7 @@ export const getProduct = async (req, res) => {
     const response = await productsServices.getProduct(id.split('=')[1])
     return res.status(200).json(response)
   } catch (error) {
-    return res.status(500).json({
-      error: -1,
-      message: `Cannot get product: ${error.message}`,
-    })
+    return res.status(500).json(error)
   }
 }
 
@@ -53,9 +41,15 @@ export const getProductsCategory = async (req, res) => {
     const products = await productsServices.getProductsCategory(req.query)
     return res.status(200).json(products)
   } catch (error) {
-    return res.status(500).json({
-      error: -1,
-      message: `Cannot get products category: ${error.message}`,
-    })
+    return res.status(500).json(error)
+  }
+}
+
+export const getTotalProductsCategory = async (req, res) => {
+  try {
+    const products = await productsServices.getTotalProductsCategory(req.query)
+    return res.status(200).json(products)
+  } catch (error) {
+    return res.status(500).json(error)
   }
 }
