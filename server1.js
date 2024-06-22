@@ -13,7 +13,6 @@ app.use(
   })
 )
 
-// read API to Client
 app.use(express.json())
 app.use(
   express.urlencoded({
@@ -23,7 +22,7 @@ app.use(
 initRoutes(app)
 testConnectDB()
 
-const port = process.env.PORT || 8000
+const port = process.env.PORT1 || 5001
 const listener = app.listen(port, () => {
   console.log(
     `Server listing port: http://localhost:${listener.address().port}`

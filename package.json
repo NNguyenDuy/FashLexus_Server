@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon --exec babel-node server.js",
+    "start:server1": "nodemon --exec babel-node server1.js",
+    "start:server2": "nodemon --exec babel-node server2.js",
+    "start:lb": "nodemon --exec babel-node lb.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -26,6 +28,7 @@
     "uuid": "^9.0.1"
   },
   "dependencies": {
-    "moment": "^2.30.1"
+    "moment": "^2.30.1",
+    "http-proxy-middleware": "^2.0.6"
   }
 }
