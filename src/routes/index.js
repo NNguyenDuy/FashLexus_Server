@@ -4,6 +4,7 @@ import insertRouter from './insert'
 import productRouter from './product'
 import categoriesRouter from './categories'
 import reviewsRouter from './reviews'
+import appRouter from './app'
 
 const initRoutes = (app) => {
   app.use('/api/auth', authRouter)
@@ -13,6 +14,7 @@ const initRoutes = (app) => {
   app.use('/api/product', productRouter)
   app.use('/api/categories', categoriesRouter)
   app.use('/api/reviews', reviewsRouter)
+  app.use('/api/app', appRouter)
 
   return app.use('/', (req, res) => {
     res.send('Server on...')

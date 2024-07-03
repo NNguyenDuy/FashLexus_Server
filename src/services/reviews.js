@@ -1,5 +1,4 @@
-import { raw } from 'express'
-import db from '../models'
+import db from '../models'  
 
 export const getReviewsProduct = (Product_id, page, pageSize) =>
   new Promise(async (resolve, reject) => {
