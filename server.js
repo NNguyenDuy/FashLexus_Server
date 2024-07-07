@@ -1,7 +1,7 @@
 import express from 'express'
 require('dotenv').config()
 import cors from 'cors'
-import initRoutes from './src/routes'
+import initRoutes from './src/routes/index.router'
 import testConnectDB from './src/config/connectDatabase'
 
 const app = express()

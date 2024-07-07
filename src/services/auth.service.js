@@ -12,7 +12,7 @@ const hashPasswordAsync = async (Password) => {
   }
 }
 
-export const registerService = async ({ Fullname, Gmail, Password }) =>
+export const register = async ({ Fullname, Gmail, Password }) =>
   new Promise(async (resolve, reject) => {
     try {
       const [user, created] = await db.User.findOrCreate({
@@ -41,7 +41,7 @@ export const registerService = async ({ Fullname, Gmail, Password }) =>
     }
   })
 
-export const loginService = ({ Gmail, Password }) =>
+export const login = ({ Gmail, Password }) =>
   new Promise(async (resolve, reject) => {
     try {
       const user = await db.User.findOne({
@@ -58,7 +58,7 @@ export const loginService = ({ Gmail, Password }) =>
         },
         process.env.SECRET_KEY,
         {
-          expiresIn: '2d',
+          expiresIn: '1d',
         }
       )
 

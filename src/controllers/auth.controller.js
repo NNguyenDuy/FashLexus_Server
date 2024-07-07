@@ -1,9 +1,9 @@
-import * as authServices from '../services/auth'
+import * as auth from '../services/auth.service'
 
 export const register = async (req, res) => {
   const { Fullname, Gmail, Password } = req.body
   try {
-    const response = await authServices.registerService({
+    const response = await auth.register({
       Fullname,
       Gmail,
       Password,
@@ -19,7 +19,7 @@ export const register = async (req, res) => {
 export const login = async (req, res) => {
   const { Gmail, Password } = req.body
   try {
-    const response = await authServices.loginService({
+    const response = await auth.login({
       Gmail,
       Password,
     })

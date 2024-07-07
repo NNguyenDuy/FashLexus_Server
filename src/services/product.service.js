@@ -60,6 +60,7 @@ export const getProductsTrending = async () => {
     }
   }
 }
+
 export const getProduct = async (id) => {
   try {
     const product = await db.Product.findOne({ where: { id } })

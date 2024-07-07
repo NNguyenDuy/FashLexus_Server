@@ -1,10 +1,10 @@
-import * as reviewsService from '../services/reviews'
+import * as review from '../services/review.service'
 
 export const getReviews = async (req, res) => {
   try {
     const { Product_id, page, pageSize } = req.query
 
-    const reviews = await reviewsService.getReviewsProduct(
+    const reviews = await review.getReviewsProduct(
       parseInt(Product_id),
       parseInt(page),
       parseInt(pageSize)
@@ -22,7 +22,7 @@ export const getReviews = async (req, res) => {
 export const getTotalReviewsProduct = async (req, res) => {
   try {
     const { Product_id } = req.query
-    const totalReviews = await reviewsService.getTotalReviewsProduct(
+    const totalReviews = await review.getTotalReviewsProduct(
       parseInt(Product_id)
     )
     return res.status(200).json(totalReviews)
@@ -36,8 +36,8 @@ export const getTotalReviewsProduct = async (req, res) => {
 
 export const createReview = async (req, res) => {
   try {
-    const review = await reviewsService.createReview(req.query)
-    return res.status(200).json(review)
+    const createReview = await review.createReview(req.body)
+    return res.status(200).json(createReview)
   } catch (error) {
     return res.status(500).json({
       error: -1,

@@ -1,9 +1,9 @@
 import express from 'express'
 const router = express.Router()
-import * as userController from '../controllers/user'
+import * as user from '../controllers/user.controller'
 import verifyToken from '../middlewares/verifyToken'
 
 router.use(verifyToken)
-router.get('', userController.getUserByIdController)
+router.get('', user.getUser)
 
 export default router
