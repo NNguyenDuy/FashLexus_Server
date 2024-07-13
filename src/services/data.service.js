@@ -6,6 +6,7 @@ import shorts from '../../data/shorts.json'
 import suits from '../../data/suits.json'
 import tshirts from '../../data/tshirts.json'
 import { formatPath, getPrice } from '../ultis/common'
+import { register } from './auth.service'
 
 const data = [
   {
@@ -32,7 +33,13 @@ export const insertData = () =>
   new Promise(async (resolve, reject) => {
     try {
       await Promise.all(
-        data.map(async (index) => {
+        data.map(async (index, i) => {
+          const user = await register({
+            Fullname: 'nguyenduy' + i,
+            Gmail: 'nguyenduy' + i + '@gmail.com',
+            Password: '12345678',
+          })
+
           const category = await db.Category.create({
             Name: index.link.category.name,
             Category_path: formatPath(index.link.category.path),
@@ -63,9 +70,9 @@ export const insertData = () =>
                 item.comments.map(async (comment) => {
                   await db.Review.create({
                     Product_id: product.id,
-                    User_id: 1,
+                    User_id: i + 1,
                     Rating: comment.starRating,
-                    Title: comment.title,
+                    Title: comment.title || 'No title',
                     Content: comment.content,
                     createdAt: Date.now('YYYY:MM:DD'),
                   })

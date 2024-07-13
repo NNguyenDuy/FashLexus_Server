@@ -1,27 +1,27 @@
 {
   "development": {
-    "username": "root",
-    "password": "qwKSwKbiheqApedKUdiZOiGgFKGSaSzN",
-    "database": "railway",
-    "host": "viaduct.proxy.rlwy.net",
+    "username": "uqmxwdbegztbz6bj",
+    "password": "OFM7UxAzGICCBtIylfGa",
+    "database": "boxmqbd26ez1yhi9oi0y",
+    "host": "boxmqbd26ez1yhi9oi0y-mysql.services.clever-cloud.com",
     "dialect": "mysql",
     "logging": false,
-    "port": 21302
+    "port": 3306
   },
   "test": {
-    "username": "root",
-    "password": "qwKSwKbiheqApedKUdiZOiGgFKGSaSzN",
-    "database": "railway",
-    "host": "viaduct.proxy.rlwy.net",
+    "username": "uqmxwdbegztbz6bj",
+    "password": "OFM7UxAzGICCBtIylfGa",
+    "database": "boxmqbd26ez1yhi9oi0y",
+    "host": "boxmqbd26ez1yhi9oi0y-mysql.services.clever-cloud.com",
     "dialect": "mysql",
-    "port": 21302
+    "port": 3306
   },
   "production": {
-    "username": "root",
-    "password": "qwKSwKbiheqApedKUdiZOiGgFKGSaSzN",
-    "database": "railway",
-    "host": "viaduct.proxy.rlwy.net",
+    "username": "uqmxwdbegztbz6bj",
+    "password": "OFM7UxAzGICCBtIylfGa",
+    "database": "boxmqbd26ez1yhi9oi0y",
+    "host": "boxmqbd26ez1yhi9oi0y-mysql.services.clever-cloud.com",
     "dialect": "mysql",
-    "port": 21302
+    "port": 3306
   }
 }

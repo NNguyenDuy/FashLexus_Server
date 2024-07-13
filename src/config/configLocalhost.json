@@ -1,0 +1,27 @@
+{
+  "development": {
+    "username": "root",
+    "password": "nguyenduy123",
+    "database": "fashion_lexus",
+    "host": "localhost",
+    "dialect": "mysql",
+    "logging": false,
+    "port": 3306
+  },
+  "test": {
+    "username": "root",
+    "password": "nguyenduy123",
+    "database": "fashion_lexus",
+    "host": "localhost",
+    "dialect": "mysql",
+    "port": 3306
+  },
+  "production": {
+    "username": "root",
+    "password": "nguyenduy123",
+    "database": "fashion_lexus",
+    "host": "localhost",
+    "dialect": "mysql",
+    "port": 3306
+  }
+}
