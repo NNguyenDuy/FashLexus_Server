@@ -13,7 +13,6 @@ app.use(
   })
 )
 
-// read API to Client
 app.use(express.json())
 app.use(
   express.urlencoded({

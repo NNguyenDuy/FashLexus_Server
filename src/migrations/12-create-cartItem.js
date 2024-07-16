@@ -1,4 +1,4 @@
-'use strict';
+'use strict'
 module.exports = {
   up: async (queryInterface, Sequelize) => {
     await queryInterface.createTable('Cart_items', {
@@ -13,44 +13,40 @@ module.exports = {
         type: Sequelize.INTEGER,
         references: {
           model: 'Products',
-          key: 'id'
-        }
+          key: 'id',
+        },
       },
       Cart_id: {
         allowNull: false,
         type: Sequelize.INTEGER,
         references: {
           model: 'Carts',
-          key: 'id'
-        }
+          key: 'id',
+        },
       },
       Quantity: {
         allowNull: false,
         type: Sequelize.INTEGER,
       },
-      Price: {
+      Color: {
         allowNull: false,
-        type: Sequelize.DECIMAL(8, 2),
+        type: Sequelize.STRING,
       },
-      Created_at: {
+      Size: {
         allowNull: false,
-        type: Sequelize.DATE,
-      },
-      Updated_at: {
-        allowNull: false,
-        type: Sequelize.DATE,
+        type: Sequelize.STRING,
       },
       createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE
+        allowNull: true,
+        type: Sequelize.DATE,
       },
       updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE
-      }
-    });
+        allowNull: true,
+        type: Sequelize.DATE,
+      },
+    })
   },
   down: async (queryInterface, Sequelize) => {
-    await queryInterface.dropTable('Cart_items');
-  }
-};
+    await queryInterface.dropTable('Cart_items')
+  },
+}

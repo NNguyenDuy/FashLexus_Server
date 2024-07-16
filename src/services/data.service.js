@@ -32,14 +32,14 @@ const data = [
 export const insertData = () =>
   new Promise(async (resolve, reject) => {
     try {
+      await register({
+        Fullname: 'nguyenduy',
+        Gmail: 'nguyenduy@gmail.com',
+        Password: '12345678',
+      })
+      
       await Promise.all(
-        data.map(async (index, i) => {
-          const user = await register({
-            Fullname: 'nguyenduy' + i,
-            Gmail: 'nguyenduy' + i + '@gmail.com',
-            Password: '12345678',
-          })
-
+        data.map(async (index) => {
           const category = await db.Category.create({
             Name: index.link.category.name,
             Category_path: formatPath(index.link.category.path),
@@ -56,7 +56,7 @@ export const insertData = () =>
                 Category_id: category.id,
                 Name: item.name,
                 Description: details,
-                Size: size,
+                Sizes: size,
                 Colors: color,
                 Price: getPrice(item.price),
                 Images: images,
@@ -70,7 +70,7 @@ export const insertData = () =>
                 item.comments.map(async (comment) => {
                   await db.Review.create({
                     Product_id: product.id,
-                    User_id: i + 1,
+                    User_id: 1,
                     Rating: comment.starRating,
                     Title: comment.title || 'No title',
                     Content: comment.content,

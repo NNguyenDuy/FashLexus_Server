@@ -24,7 +24,7 @@ module.exports = {
         allowNull: false,
         type: Sequelize.TEXT,
       },
-      Size: {
+      Sizes: {
         allowNull: false,
         type: Sequelize.TEXT,
       },

@@ -24,6 +24,13 @@ export const register = async ({ Fullname, Gmail, Password }) =>
         },
       })
 
+      created &&
+        (await db.Cart.create({
+          User_id: user.id,
+          createdAt: Date.now(),
+          update: Date.now(),
+        }))
+
       const token = created
         ? jwt.sign({ id: user.id, Gmail: user.Gmail }, process.env.SECRET_KEY, {
             expiresIn: '2d',

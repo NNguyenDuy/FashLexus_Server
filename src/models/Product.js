@@ -20,7 +20,7 @@ module.exports = (sequelize) => {
       Category_id: DataTypes.INTEGER,
       Name: DataTypes.STRING,
       Description: DataTypes.TEXT,
-      Size: DataTypes.TEXT,
+      Sizes: DataTypes.TEXT,
       Colors: DataTypes.STRING,
       Images: DataTypes.TEXT,
       Price: DataTypes.DECIMAL(8, 2),
