@@ -1,26 +1,26 @@
 {
   "development": {
-    "username": "uqmxwdbegztbz6bj",
-    "password": "OFM7UxAzGICCBtIylfGa",
-    "database": "boxmqbd26ez1yhi9oi0y",
-    "host": "boxmqbd26ez1yhi9oi0y-mysql.services.clever-cloud.com",
+    "username": "root",
+    "password": "nguyenduy123",
+    "database": "fashion_lexus",
+    "host": "localhost",
     "dialect": "mysql",
     "logging": false,
     "port": 3306
   },
   "test": {
-    "username": "uqmxwdbegztbz6bj",
-    "password": "OFM7UxAzGICCBtIylfGa",
-    "database": "boxmqbd26ez1yhi9oi0y",
-    "host": "boxmqbd26ez1yhi9oi0y-mysql.services.clever-cloud.com",
+    "username": "root",
+    "password": "nguyenduy123",
+    "database": "fashion_lexus",
+    "host": "localhost",
     "dialect": "mysql",
     "port": 3306
   },
   "production": {
-    "username": "uqmxwdbegztbz6bj",
-    "password": "OFM7UxAzGICCBtIylfGa",
-    "database": "boxmqbd26ez1yhi9oi0y",
-    "host": "boxmqbd26ez1yhi9oi0y-mysql.services.clever-cloud.com",
+    "username": "root",
+    "password": "nguyenduy123",
+    "database": "fashion_lexus",
+    "host": "localhost",
     "dialect": "mysql",
     "port": 3306
   }

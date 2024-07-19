@@ -26,8 +26,7 @@ export const getInfoCart = async (req, res) => {
 }
 export const insertCart = async (req, res) => {
   try {
-    const { User_id, Product_id, Quantity, Color, Size } = req.body
-    await cart.insertCart(User_id, Product_id, Quantity, Color, Size)
+    await cart.insertCart(req.body)
     return res.status(200).json({
       error: 1,
       message: `Insert carted`,

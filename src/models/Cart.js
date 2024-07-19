@@ -1,9 +1,13 @@
 'use strict'
 const { Model } = require('sequelize')
+
 module.exports = (sequelize, DataTypes) => {
   class Cart extends Model {
-    static associate(models) {}
+    static associate(models) {
+      Cart.belongsTo(models.User, { foreignKey: 'User_id' })
+    }
   }
+
   Cart.init(
     {
       User_id: DataTypes.INTEGER,
@@ -15,5 +19,6 @@ module.exports = (sequelize, DataTypes) => {
       modelName: 'Cart',
     }
   )
+
   return Cart
 }

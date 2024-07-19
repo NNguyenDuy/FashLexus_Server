@@ -78,14 +78,7 @@ export const getProduct = async (id) => {
   }
 }
 
-export const getProductsCategory = async ({
-  category,
-  searchName,
-  minPrice,
-  maxPrice,
-  offset,
-  pageSize,
-}) => {
+export const getProductsCategory = async ({category,searchName,minPrice,maxPrice,offset,pageSize,})=> {
   try {
     const queryParams = []
     let query = `

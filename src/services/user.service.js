@@ -5,10 +5,17 @@ export const getUser = (id) =>
     try {
       const user = await db.User.findOne({
         where: { id },
-        raw: true,
         attributes: {
           exclude: ['Password'],
         },
+        include: [
+          {
+            model: db.Cart,
+            where: { User_id: id },
+            attributes: [['id', 'Cart_id']],
+            required: false,
+          },
+        ],
       })
       resolve(user)
     } catch (error) {
