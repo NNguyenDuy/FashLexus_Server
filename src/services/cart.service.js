@@ -1,4 +1,6 @@
 import db from '../models'
+import { redisClient } from '../config/redis'
+const CACHE_TTL = 3600
 
 export const getInfoCart = (User_id) =>
   new Promise(async (resolve, reject) => {

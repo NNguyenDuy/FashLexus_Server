@@ -1,10 +1,34 @@
 import db from '../models'
+import { redisClient } from '../config/redis'
+
+const CACHE_TTL = 3600
 
 export const getProductsFeatured = async () => {
+  const CACHE_KEY = 'featured_products'
   try {
+    if (redisClient.isReady) {
+      const cachedProducts = await redisClient.get(CACHE_KEY)
+      if (cachedProducts) {
+        try {
+          const parsedProducts = JSON.parse(cachedProducts)
+          return {
+            error: 0,
+            message: 'Get products from cache success',
+            products: parsedProducts,
+          }
+        } catch (parseError) {
+          console.error('Error parsing cached products:', parseError)
+        }
+      }
+    }
+
     const products = await db.sequelize.query('CALL GetTopProducts()', {
       type: db.sequelize.QueryTypes.RAW,
     })
+
+    if (redisClient.isReady) {
+      await redisClient.setEx(CACHE_KEY, CACHE_TTL, JSON.stringify(products))
+    }
 
     return {
       error: 0,
@@ -21,11 +45,32 @@ export const getProductsFeatured = async () => {
 }
 
 export const getProductsNewArrival = async () => {
+  const CACHE_KEY = 'new_arrival_products'
   try {
+    if (redisClient.isReady) {
+      const cachedProducts = await redisClient.get(CACHE_KEY)
+      if (cachedProducts) {
+        try {
+          const parsedProducts = JSON.parse(cachedProducts)
+          return {
+            error: 0,
+            message: 'Get products from cache success',
+            products: parsedProducts,
+          }
+        } catch (parseError) {
+          console.error('Error parsing cached products:', parseError)
+        }
+      }
+    }
+
     const products = await db.Product.findAll({
       order: [['createdAt', 'DESC']],
       limit: 10,
     })
+
+    if (redisClient.isReady) {
+      await redisClient.setEx(CACHE_KEY, CACHE_TTL, JSON.stringify(products))
+    }
 
     return {
       error: 0,
@@ -42,10 +87,31 @@ export const getProductsNewArrival = async () => {
 }
 
 export const getProductsTrending = async () => {
+  const CACHE_KEY = 'trending_products'
   try {
+    if (redisClient.isReady) {
+      const cachedProducts = await redisClient.get(CACHE_KEY)
+      if (cachedProducts) {
+        try {
+          const parsedProducts = JSON.parse(cachedProducts)
+          return {
+            error: 0,
+            message: 'Get products from cache success',
+            products: parsedProducts,
+          }
+        } catch (parseError) {
+          console.error('Error parsing cached products:', parseError)
+        }
+      }
+    }
+
     const products = await db.sequelize.query('CALL GetTrendingProducts()', {
       type: db.sequelize.QueryTypes.RAW,
     })
+
+    if (redisClient.isReady) {
+      await redisClient.setEx(CACHE_KEY, CACHE_TTL, JSON.stringify(products))
+    }
 
     return {
       error: 0,
@@ -78,7 +144,14 @@ export const getProduct = async (id) => {
   }
 }
 
-export const getProductsCategory = async ({category,searchName,minPrice,maxPrice,offset,pageSize,})=> {
+export const getProductsCategory = async ({
+  category,
+  searchName,
+  minPrice,
+  maxPrice,
+  offset,
+  pageSize,
+}) => {
   try {
     const queryParams = []
     let query = `

@@ -3,6 +3,7 @@ require('dotenv').config()
 import cors from 'cors'
 import initRoutes from './src/routes/index.router'
 import testConnectDB from './src/config/connectDatabase'
+import { connectRedis } from './src/config/redis'
 
 const app = express()
 
@@ -23,8 +24,16 @@ initRoutes(app)
 testConnectDB()
 
 const port = process.env.PORT || 8000
-const listener = app.listen(port, () => {
+const listener = app.listen(port, async () => {
+  const redisConnected = await connectRedis()
+  if (!redisConnected) {
+    console.error(
+      'Failed to connect to Redis. Server will start without Redis support.'
+    )
+  }
+
+  console.log(`Server is running on port ${port}`)
   console.log(
-    `Server listing port: http://localhost:${listener.address().port}`
+    `Server listening port: http://localhost:${listener.address().port}`
   )
 })
