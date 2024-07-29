@@ -2,7 +2,7 @@ import * as user from '../services/user.service'
 
 export const getUser = async (req, res) => {
   try {
-    const { id } = req.user.user
+    const { id } = req.user
     const userData = await user.getUser(id)
     return res.status(200).json({
       error: 1,

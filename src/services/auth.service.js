@@ -12,6 +12,19 @@ const hashPasswordAsync = async (Password) => {
   }
 }
 
+const jwtSignUser = (user) => {
+  return jwt.sign(
+    {
+      id: user.id,
+      Gmail: user.Gmail,
+    },
+    process.env.SECRET_KEY,
+    {
+      expiresIn: '2d',
+    }
+  )
+}
+
 export const register = async ({ Fullname, Gmail, Password }) =>
   new Promise(async (resolve, reject) => {
     try {
@@ -31,11 +44,7 @@ export const register = async ({ Fullname, Gmail, Password }) =>
           update: Date.now(),
         }))
 
-      const token = created
-        ? jwt.sign({ id: user.id, Gmail: user.Gmail }, process.env.SECRET_KEY, {
-            expiresIn: '2d',
-          })
-        : null
+      const token = created ? jwtSignUser(user) : null
 
       resolve({
         message: created
@@ -59,15 +68,7 @@ export const login = ({ Gmail, Password }) =>
       const isPasswordValid = bcryptjs.compareSync(Password, user.Password)
       if (!isPasswordValid) throw new Error('Invalid email or password')
 
-      const token = jwt.sign(
-        {
-          user: { id: user.id, Gmail: user.Gmail },
-        },
-        process.env.SECRET_KEY,
-        {
-          expiresIn: '1d',
-        }
-      )
+      const token = jwtSignUser(user)
 
       resolve({
         message: 'User logged in successfully',
